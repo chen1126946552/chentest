@@ -13,5 +13,11 @@ def nop():
 		pass
 
 #返回一元二次方程的解
-def quadratic(a,b,c)
+def quadratic(a,b,c):
+	pass
+
+def add_end(L=[]):
+	L.append('END')
+	return L
+
 
