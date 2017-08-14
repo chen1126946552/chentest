@@ -1,0 +1,3 @@
+SITE_Event_EventAnalytics_EventName,profileId=,&start-date=,&end-date=,"&dimensions=pt:eventName,pt:eventVersion",totalResults,"""name"":""pt:eventName""","""name"":""pt:eventVersion""",totalsForAllResults
+SITE_Event_EventAnalytics_EventCurve,profileId=,&start-date=,&end-date=,"&dimensions=pt:date,pt:eventName&metrics=pt:eventCount,pt:sessions&segment=&filters=&start-index=1&max-results=10000",totalResults,"""name"":""pt:eventName""","""name"":""pt:eventCount""","""name"":""pt:sessions"""
+SITE_Event_EventAnalytics_EventList,profileId=,&start-date=,&end-date=,"&dimensions=pt:eventName&metrics=pt:eventCount,pt:sessions&segment=&filters=&start-index=1&max-results=10000",totalResults,"""name"":""pt:eventName""","""name"":""pt:eventCount""","""name"":""pt:sessions"""
