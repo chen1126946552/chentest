@@ -1,0 +1,161 @@
+1528342351148,755,Amazon S3_接口可用性_获取账户,200,OK,接口可用性 1-1,true,,494,0,https://stagingmiddle.datadeck.com/api/v1/datasources/f6d9eb62-4e84-420b-8227-f745efc1c243/20/accounts,755,1,0,chenchen-mac-2.local,0,0
+1528342351905,271,Amazon S3_接口可用性_获取文件,200,OK,接口可用性 1-1,true,,660,514,https://stagingmiddle.datadeck.com/api/v1/commands/recipient,271,1,0,chenchen-mac-2.local,0,130
+1528342352177,287,Amazon S3_接口可用性_获取字段列表,200,OK,接口可用性 1-1,true,,1952,0,https://stagingmiddle.datadeck.com/api/v1/datasources/b84eab03-5eee-483b-881e-cd9243feeb61/fields%20,286,1,0,chenchen-mac-2.local,0,0
+1528342352464,317,Amazon S3_接口可用性_过滤器维度值列表,200,OK,接口可用性 1-1,true,,592,1414,https://stagingmiddle.datadeck.com/api/v1/commands/recipient,317,1,0,chenchen-mac-2.local,0,132
+1528342352782,2023,Amazon S3_接口可用性_Widget取数,200,OK,接口可用性 1-1,true,,1203,4568,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,2023,1,0,chenchen-mac-2.local,0,129
+1528342354825,437,Amazon S3_DSP_数据源类型,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_数据源类型检查正确！,1905,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,436,1,0,chenchen-mac-2.local,0,319
+1528342355272,283,Amazon S3_DSP_数据源选择,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_数据源选择检查正确！,1930,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,283,1,0,chenchen-mac-2.local,0,162
+1528342355568,261,Amazon S3_DSP_图表类型,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_图表类型检查正确！,1907,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,261,1,0,chenchen-mac-2.local,0,147
+1528342355841,259,Amazon S3_DSP_图表类型_地图,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_图表类型_地图检查正确！,1964,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,259,1,0,chenchen-mac-2.local,0,145
+1528342356110,238,Amazon S3_DSP_计算方式,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_计算方式检查正确！,1904,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,237,1,0,chenchen-mac-2.local,0,131
+1528342356359,234,Amazon S3_DSP_计算字段,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_计算字段检查正确！,1944,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,234,1,0,chenchen-mac-2.local,0,128
+1528342356605,260,Amazon S3_DSP_时间Group by,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_时间Group by检查正确！,1947,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,260,1,0,chenchen-mac-2.local,0,147
+1528342356880,253,Amazon S3_DSP_时间控件,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_时间控件检查正确！,1921,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,253,1,0,chenchen-mac-2.local,0,141
+1528342357169,251,Amazon S3_DSP_时间控件_Alltime,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_时间控件_Alltime检查正确！,1945,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,251,1,0,chenchen-mac-2.local,0,144
+1528342357433,245,Amazon S3_DSP_过滤器_日期类型,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_过滤器_日期类型检查正确！,1952,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,244,1,0,chenchen-mac-2.local,0,137
+1528342357698,253,Amazon S3_DSP_过滤器_数值类型,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_过滤器_数值类型检查正确！,1945,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,253,1,0,chenchen-mac-2.local,0,143
+1528342357966,255,Amazon S3_DSP_过滤器_字符类型_选择,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_过滤器_字符类型_选择检查正确！,1923,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,255,1,0,chenchen-mac-2.local,0,148
+1528342358231,238,Amazon S3_DSP_过滤器_字符类型_条件,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_过滤器_字符类型_条件检查正确！,1940,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,237,1,0,chenchen-mac-2.local,0,136
+1528342358478,258,Amazon S3_DSP_时间粒度,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_时间粒度检查正确！,1927,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,258,1,0,chenchen-mac-2.local,0,147
+1528342358743,249,Amazon S3_DSP_档案切换,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_档案切换检查正确！,1904,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,249,1,0,chenchen-mac-2.local,0,145
+1528342359004,949,Amazon S3_DSP_未来时间,200,OK,数据源特殊性_未来时间 3-1,true,,550,4573,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,949,1,0,chenchen-mac-2.local,0,346
+1528342359959,686,Amazon S3_计算字段_创建,200,OK,计算字段 4-1,true,,525,1621,https://stagingmiddle.datadeck.com/api/v2/calculatedFields,686,1,0,chenchen-mac-2.local,0,318
+1528342360646,733,Amazon S3_计算字段_数据正确性检查,200,OK,计算字段 4-1,true,,961,2948,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,733,1,0,chenchen-mac-2.local,0,0
+1528342361379,142,Amazon S3_计算字段_删除,204,No Content,计算字段 4-1,true,,130,430,https://stagingmiddle.datadeck.com/api/v2/calculatedFields/98c385f4-627b-4442-b414-9c7b411ce0f1,0,1,0,chenchen-mac-2.local,0,0
+1528342361522,140,Amazon S3_计算字段_数量检查,200,OK,计算字段 4-1,false,"Test failed: text expected to contain /""data"":[]/",525,483,https://stagingmiddle.datadeck.com/api/v2/spaces/f6d9eb62-4e84-420b-8227-f745efc1c243/datasources/71fb299b-886b-4959-bd7e-ac854d169275/calculatedFields,140,1,1,chenchen-mac-2.local,0,0
+1528342361670,1077,Amazon S3_过滤器_日期类型,200,OK,过滤器 5-1,true,,1260,5089,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,1077,1,0,chenchen-mac-2.local,0,338
+1528342362748,2295,Amazon S3_过滤器_数值类型,200,OK,过滤器 5-1,true,,1349,5061,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,2295,1,0,chenchen-mac-2.local,0,142
+1528342365044,1727,Amazon S3_过滤器_字符类型_选择,200,OK,过滤器 5-1,true,,1105,5118,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,1727,1,0,chenchen-mac-2.local,0,144
+1528342366772,593,Amazon S3_过滤器_字符类型_全部,200,OK,过滤器 5-1,true,,1515,5058,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,593,1,0,chenchen-mac-2.local,0,151
+1528342367366,612,Amazon S3_过滤器_字符类型_条件,200,OK,过滤器 5-1,true,,1460,5069,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,612,1,0,chenchen-mac-2.local,0,150
+1528343132407,368,Amazon S3_接口可用性_获取账户,200,OK,接口可用性 1-1,true,,494,0,https://stagingmiddle.datadeck.com/api/v1/datasources/f6d9eb62-4e84-420b-8227-f745efc1c243/20/accounts,368,1,0,chenchen-mac-2.local,0,0
+1528343132776,265,Amazon S3_接口可用性_获取文件,200,OK,接口可用性 1-1,true,,660,514,https://stagingmiddle.datadeck.com/api/v1/commands/recipient,265,1,0,chenchen-mac-2.local,0,128
+1528343133042,244,Amazon S3_接口可用性_获取字段列表,200,OK,接口可用性 1-1,true,,1952,0,https://stagingmiddle.datadeck.com/api/v1/datasources/b84eab03-5eee-483b-881e-cd9243feeb61/fields%20,244,1,0,chenchen-mac-2.local,0,0
+1528343133286,314,Amazon S3_接口可用性_过滤器维度值列表,200,OK,接口可用性 1-1,true,,592,1414,https://stagingmiddle.datadeck.com/api/v1/commands/recipient,314,1,0,chenchen-mac-2.local,0,142
+1528343133601,576,Amazon S3_接口可用性_Widget取数,200,OK,接口可用性 1-1,true,,1204,4568,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,576,1,0,chenchen-mac-2.local,0,133
+1528343134194,402,Amazon S3_DSP_数据源类型,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_数据源类型检查正确！,1931,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,402,1,0,chenchen-mac-2.local,0,303
+1528343134610,259,Amazon S3_DSP_数据源选择,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_数据源选择检查正确！,1943,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,259,1,0,chenchen-mac-2.local,0,145
+1528343134883,223,Amazon S3_DSP_图表类型,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_图表类型检查正确！,1929,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,223,1,0,chenchen-mac-2.local,0,126
+1528343135119,251,Amazon S3_DSP_图表类型_地图,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_图表类型_地图检查正确！,1938,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,251,1,0,chenchen-mac-2.local,0,143
+1528343135384,236,Amazon S3_DSP_计算方式,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_计算方式检查正确！,1939,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,235,1,0,chenchen-mac-2.local,0,134
+1528343135630,249,Amazon S3_DSP_计算字段,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_计算字段检查正确！,1941,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,249,1,0,chenchen-mac-2.local,0,140
+1528343135885,239,Amazon S3_DSP_时间Group by,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_时间Group by检查正确！,1929,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,238,1,0,chenchen-mac-2.local,0,128
+1528343136134,261,Amazon S3_DSP_时间控件,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_时间控件检查正确！,1916,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,261,1,0,chenchen-mac-2.local,0,146
+1528343136405,228,Amazon S3_DSP_时间控件_Alltime,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_时间控件_Alltime检查正确！,1907,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,228,1,0,chenchen-mac-2.local,0,134
+1528343136644,220,Amazon S3_DSP_过滤器_日期类型,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_过滤器_日期类型检查正确！,1924,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,220,1,0,chenchen-mac-2.local,0,125
+1528343136877,236,Amazon S3_DSP_过滤器_数值类型,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_过滤器_数值类型检查正确！,1924,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,236,1,0,chenchen-mac-2.local,0,131
+1528343137122,235,Amazon S3_DSP_过滤器_字符类型_选择,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_过滤器_字符类型_选择检查正确！,1901,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,234,1,0,chenchen-mac-2.local,0,133
+1528343137365,251,Amazon S3_DSP_过滤器_字符类型_条件,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_过滤器_字符类型_条件检查正确！,1924,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,251,1,0,chenchen-mac-2.local,0,144
+1528343137626,251,Amazon S3_DSP_时间粒度,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_时间粒度检查正确！,1932,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,251,1,0,chenchen-mac-2.local,0,140
+1528343137887,223,Amazon S3_DSP_档案切换,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_档案切换检查正确！,1951,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,223,1,0,chenchen-mac-2.local,0,127
+1528343138121,630,Amazon S3_DSP_未来时间,200,OK,数据源特殊性_未来时间 3-1,true,,550,4573,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,630,1,0,chenchen-mac-2.local,0,304
+1528343138754,591,Amazon S3_计算字段_创建,200,OK,计算字段 4-1,true,,524,1621,https://stagingmiddle.datadeck.com/api/v2/calculatedFields,591,1,0,chenchen-mac-2.local,0,331
+1528343139346,1791,Amazon S3_计算字段_数据正确性检查,200,OK,计算字段 4-1,true,,963,2948,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,1791,1,0,chenchen-mac-2.local,0,0
+1528343141138,275,Amazon S3_计算字段_删除,204,No Content,计算字段 4-1,true,,130,430,https://stagingmiddle.datadeck.com/api/v2/calculatedFields/71e67776-8cdc-4ab2-969f-c0cebabc8b56,0,1,0,chenchen-mac-2.local,0,141
+1528343141414,128,Amazon S3_计算字段_数量检查,200,OK,计算字段 4-1,false,"Test failed: text expected to contain /""data"":[]/",525,483,https://stagingmiddle.datadeck.com/api/v2/spaces/f6d9eb62-4e84-420b-8227-f745efc1c243/datasources/71fb299b-886b-4959-bd7e-ac854d169275/calculatedFields,128,1,1,chenchen-mac-2.local,0,0
+1528343141546,822,Amazon S3_过滤器_日期类型,200,OK,过滤器 5-1,true,,1259,5089,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,821,1,0,chenchen-mac-2.local,0,316
+1528343142368,518,Amazon S3_过滤器_数值类型,200,OK,过滤器 5-1,true,,1348,5061,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,518,1,0,chenchen-mac-2.local,0,143
+1528343142887,1277,Amazon S3_过滤器_字符类型_选择,200,OK,过滤器 5-1,true,,1106,5118,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,1277,1,0,chenchen-mac-2.local,0,140
+1528343144165,1263,Amazon S3_过滤器_字符类型_全部,200,OK,过滤器 5-1,true,,1516,5058,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,1263,1,0,chenchen-mac-2.local,0,137
+1528343145428,997,Amazon S3_过滤器_字符类型_条件,200,OK,过滤器 5-1,true,,1460,5069,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,997,1,0,chenchen-mac-2.local,0,148
+1528352346816,699,Amazon S3_计算字段_创建,200,OK,计算字段 1-1,true,,526,1621,https://stagingmiddle.datadeck.com/api/v2/calculatedFields,699,1,0,chenchen-mac-2.local,0,442
+1528352347516,426,Amazon S3_计算字段_数据正确性检查,200,OK,计算字段 1-1,true,,962,2948,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,426,1,0,chenchen-mac-2.local,0,0
+1528352347942,564,Amazon S3_计算字段_过滤器_数据正确性检查,200,OK,计算字段 1-1,true,,965,4646,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,564,1,0,chenchen-mac-2.local,0,0
+1528352348507,1090,Amazon S3_计算字段_编辑,200,OK,计算字段 1-1,true,,522,2213,https://stagingmiddle.datadeck.com/api/v2/calculatedFields,1090,1,0,chenchen-mac-2.local,0,0
+1528352349598,1738,Amazon S3_计算字段_数据正确性检查,200,OK,计算字段 1-1,true,,961,2948,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,1738,1,0,chenchen-mac-2.local,0,128
+1528352351337,175,Amazon S3_计算字段_删除,204,No Content,计算字段 1-1,true,,130,430,https://stagingmiddle.datadeck.com/api/v2/calculatedFields/85f6bcff-cd26-438c-80e6-b7f2cee88638,0,1,0,chenchen-mac-2.local,0,0
+1528352351512,293,Amazon S3_计算字段_数量检查,200,OK,计算字段 1-1,false,"Test failed: text expected to contain /""data"":[]/",574,483,https://stagingmiddle.datadeck.com/api/v2/spaces/f6d9eb62-4e84-420b-8227-f745efc1c243/datasources/71fb299b-886b-4959-bd7e-ac854d169275/calculatedFields,293,1,1,chenchen-mac-2.local,0,0
+1528352453385,1033,Amazon S3_计算字段_创建,200,OK,计算字段 1-1,true,,523,1621,https://stagingmiddle.datadeck.com/api/v2/calculatedFields,1033,1,0,chenchen-mac-2.local,0,766
+1528352454468,414,Amazon S3_计算字段_数据正确性检查,200,OK,计算字段 1-1,true,,958,2948,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,414,1,0,chenchen-mac-2.local,0,0
+1528352454883,1507,Amazon S3_计算字段_过滤器_数据正确性检查,200,OK,计算字段 1-1,true,,963,4646,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,1507,1,0,chenchen-mac-2.local,0,0
+1528352456391,889,Amazon S3_计算字段_编辑,200,OK,计算字段 1-1,true,,521,2213,https://stagingmiddle.datadeck.com/api/v2/calculatedFields,889,1,0,chenchen-mac-2.local,0,145
+1528352457280,645,Amazon S3_计算字段_数据正确性检查,200,OK,计算字段 1-1,false,Test failed: text expected to contain /[-1901.76]/,961,2948,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,645,1,1,chenchen-mac-2.local,0,0
+1528352457926,138,Amazon S3_计算字段_删除,204,No Content,计算字段 1-1,true,,130,430,https://stagingmiddle.datadeck.com/api/v2/calculatedFields/fd76af26-b7f1-45ae-aa5d-c7d0cbae9de6,0,1,0,chenchen-mac-2.local,0,0
+1528352458064,325,Amazon S3_计算字段_数量检查,200,OK,计算字段 1-1,false,"Test failed: text expected to contain /""data"":[]/",575,483,https://stagingmiddle.datadeck.com/api/v2/spaces/f6d9eb62-4e84-420b-8227-f745efc1c243/datasources/71fb299b-886b-4959-bd7e-ac854d169275/calculatedFields,325,1,1,chenchen-mac-2.local,0,0
+1528352565639,614,Amazon S3_计算字段_创建,200,OK,计算字段 1-1,true,,525,1621,https://stagingmiddle.datadeck.com/api/v2/calculatedFields,613,1,0,chenchen-mac-2.local,0,355
+1528352566254,1194,Amazon S3_计算字段_数据正确性检查,200,OK,计算字段 1-1,true,,961,2948,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,1194,1,0,chenchen-mac-2.local,0,0
+1528352567452,594,Amazon S3_计算字段_过滤器_数据正确性检查,200,OK,计算字段 1-1,true,,964,4646,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,594,1,0,chenchen-mac-2.local,0,0
+1528352568047,454,Amazon S3_计算字段_编辑,200,OK,计算字段 1-1,true,,525,2213,https://stagingmiddle.datadeck.com/api/v2/calculatedFields,454,1,0,chenchen-mac-2.local,0,167
+1528352568501,1183,Amazon S3_计算字段_数据正确性检查,200,OK,计算字段 1-1,true,,962,2948,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,1183,1,0,chenchen-mac-2.local,0,0
+1528352569685,145,Amazon S3_计算字段_删除,204,No Content,计算字段 1-1,true,,130,430,https://stagingmiddle.datadeck.com/api/v2/calculatedFields/45f50e37-1190-43ca-a052-291760f8f0ce,0,1,0,chenchen-mac-2.local,0,0
+1528352569831,161,Amazon S3_计算字段_数量检查,200,OK,计算字段 1-1,false,"Test failed: text expected to contain /""data"":[]/",530,483,https://stagingmiddle.datadeck.com/api/v2/spaces/f6d9eb62-4e84-420b-8227-f745efc1c243/datasources/71fb299b-886b-4959-bd7e-ac854d169275/calculatedFields,161,1,1,chenchen-mac-2.local,0,0
+1528352694959,1037,Amazon S3_计算字段_创建,200,OK,计算字段 1-1,true,,523,1621,https://stagingmiddle.datadeck.com/api/v2/calculatedFields,1037,1,0,chenchen-mac-2.local,0,805
+1528352695997,1397,Amazon S3_计算字段_数据正确性检查,200,OK,计算字段 1-1,true,,961,2948,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,1397,1,0,chenchen-mac-2.local,0,0
+1528352697396,1181,Amazon S3_计算字段_过滤器_数据正确性检查,200,OK,计算字段 1-1,true,,964,4646,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,1181,1,0,chenchen-mac-2.local,0,144
+1528352698578,110,Amazon S3_计算字段_编辑,405,Method Not Allowed,计算字段 1-1,false,"Test failed: text expected to contain /""success"":true/",693,2250,https://stagingmiddle.datadeck.com/api/v2/calculatedFields/d6d9a59e-1aad-4d19-aaed-71e79f68f5e0,110,1,1,chenchen-mac-2.local,0,0
+1528352698689,384,Amazon S3_计算字段_数据正确性检查,200,OK,计算字段 1-1,false,Test failed: text expected to contain /[-1901.76]/,960,2948,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,384,1,1,chenchen-mac-2.local,0,0
+1528352699074,141,Amazon S3_计算字段_删除,204,No Content,计算字段 1-1,true,,130,430,https://stagingmiddle.datadeck.com/api/v2/calculatedFields/d6d9a59e-1aad-4d19-aaed-71e79f68f5e0,0,1,0,chenchen-mac-2.local,0,0
+1528352699216,106,Amazon S3_计算字段_数量检查,200,OK,计算字段 1-1,true,,278,483,https://stagingmiddle.datadeck.com/api/v2/spaces/f6d9eb62-4e84-420b-8227-f745efc1c243/datasources/71fb299b-886b-4959-bd7e-ac854d169275/calculatedFields,106,1,0,chenchen-mac-2.local,0,0
+1528352751112,597,Amazon S3_计算字段_创建,200,OK,计算字段 1-1,true,,526,1621,https://stagingmiddle.datadeck.com/api/v2/calculatedFields,597,1,0,chenchen-mac-2.local,0,342
+1528352751711,708,Amazon S3_计算字段_数据正确性检查,200,OK,计算字段 1-1,true,,960,2948,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,708,1,0,chenchen-mac-2.local,0,0
+1528352752420,1013,Amazon S3_计算字段_过滤器_数据正确性检查,200,OK,计算字段 1-1,true,,964,4646,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,1013,1,0,chenchen-mac-2.local,0,0
+1528352753434,360,Amazon S3_计算字段_编辑,200,OK,计算字段 1-1,true,,524,2249,https://stagingmiddle.datadeck.com/api/v2/calculatedFields/fcb06f0c-1768-4188-91bc-fca73e7fa57a,360,1,0,chenchen-mac-2.local,0,128
+1528352753795,438,Amazon S3_计算字段_数据正确性检查,200,OK,计算字段 1-1,true,,964,2948,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,438,1,0,chenchen-mac-2.local,0,0
+1528352754234,131,Amazon S3_计算字段_删除,204,No Content,计算字段 1-1,true,,130,430,https://stagingmiddle.datadeck.com/api/v2/calculatedFields/fcb06f0c-1768-4188-91bc-fca73e7fa57a,0,1,0,chenchen-mac-2.local,0,0
+1528352754366,96,Amazon S3_计算字段_数量检查,200,OK,计算字段 1-1,true,,278,483,https://stagingmiddle.datadeck.com/api/v2/spaces/f6d9eb62-4e84-420b-8227-f745efc1c243/datasources/71fb299b-886b-4959-bd7e-ac854d169275/calculatedFields,96,1,0,chenchen-mac-2.local,0,0
+1528354284977,876,Amazon S3_接口可用性_获取账户,200,OK,接口可用性 1-1,true,,494,0,https://stagingmiddle.datadeck.com/api/v1/datasources/f6d9eb62-4e84-420b-8227-f745efc1c243/20/accounts,875,1,0,chenchen-mac-2.local,0,0
+1528354285891,307,Amazon S3_接口可用性_获取文件,200,OK,接口可用性 1-1,true,,660,514,https://stagingmiddle.datadeck.com/api/v1/commands/recipient,307,1,0,chenchen-mac-2.local,0,157
+1528354286199,279,Amazon S3_接口可用性_获取字段列表,200,OK,接口可用性 1-1,true,,1952,0,https://stagingmiddle.datadeck.com/api/v1/datasources/b84eab03-5eee-483b-881e-cd9243feeb61/fields%20,278,1,0,chenchen-mac-2.local,0,0
+1528354286479,301,Amazon S3_接口可用性_过滤器维度值列表,200,OK,接口可用性 1-1,true,,592,1414,https://stagingmiddle.datadeck.com/api/v1/commands/recipient,301,1,0,chenchen-mac-2.local,0,131
+1528354286781,671,Amazon S3_接口可用性_Widget取数,200,OK,接口可用性 1-1,true,,1202,4568,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,671,1,0,chenchen-mac-2.local,0,143
+1528354287498,413,Amazon S3_DSP_数据源类型,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_数据源类型检查正确！,1919,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,413,1,0,chenchen-mac-2.local,0,312
+1528354288038,261,Amazon S3_DSP_数据源选择,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_数据源选择检查正确！,1923,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,261,1,0,chenchen-mac-2.local,0,148
+1528354288325,256,Amazon S3_DSP_图表类型,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_图表类型检查正确！,1935,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,256,1,0,chenchen-mac-2.local,0,148
+1528354288609,250,Amazon S3_DSP_图表类型_地图,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_图表类型_地图检查正确！,1934,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,250,1,0,chenchen-mac-2.local,0,144
+1528354288877,243,Amazon S3_DSP_计算方式,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_计算方式检查正确！,1929,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,243,1,0,chenchen-mac-2.local,0,129
+1528354289140,255,Amazon S3_DSP_计算字段,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_计算字段检查正确！,1947,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,255,1,0,chenchen-mac-2.local,0,144
+1528354289411,249,Amazon S3_DSP_时间Group by,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_时间Group by检查正确！,1944,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,249,1,0,chenchen-mac-2.local,0,146
+1528354289681,259,Amazon S3_DSP_时间控件,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_时间控件检查正确！,1905,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,259,1,0,chenchen-mac-2.local,0,145
+1528354289961,231,Amazon S3_DSP_时间控件_Alltime,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_时间控件_Alltime检查正确！,1921,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,231,1,0,chenchen-mac-2.local,0,130
+1528354290205,245,Amazon S3_DSP_过滤器_日期类型,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_过滤器_日期类型检查正确！,1907,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,244,1,0,chenchen-mac-2.local,0,145
+1528354290468,258,Amazon S3_DSP_过滤器_数值类型,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_过滤器_数值类型检查正确！,1932,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,258,1,0,chenchen-mac-2.local,0,143
+1528354290748,254,Amazon S3_DSP_过滤器_字符类型_选择,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_过滤器_字符类型_选择检查正确！,1928,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,253,1,0,chenchen-mac-2.local,0,146
+1528354291026,227,Amazon S3_DSP_过滤器_字符类型_条件,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_过滤器_字符类型_条件检查正确！,1932,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,227,1,0,chenchen-mac-2.local,0,129
+1528354291273,262,Amazon S3_DSP_时间粒度,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_时间粒度检查正确！,1927,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,261,1,0,chenchen-mac-2.local,0,148
+1528354291561,254,Amazon S3_DSP_档案切换,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_档案切换检查正确！,1937,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,254,1,0,chenchen-mac-2.local,0,145
+1528354291834,1385,Amazon S3_DSP_未来时间,200,OK,数据源特殊性_未来时间 3-1,true,,550,4573,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,1384,1,0,chenchen-mac-2.local,0,331
+1528354293239,580,Amazon S3_计算字段_创建,200,OK,计算字段 4-1,true,,525,1621,https://stagingmiddle.datadeck.com/api/v2/calculatedFields,580,1,0,chenchen-mac-2.local,0,341
+1528354293820,390,Amazon S3_计算字段_数据正确性检查,200,OK,计算字段 4-1,true,,962,2948,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,390,1,0,chenchen-mac-2.local,0,0
+1528354294211,1177,Amazon S3_计算字段_过滤器_数据正确性检查,200,OK,计算字段 4-1,true,,966,4646,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,1177,1,0,chenchen-mac-2.local,0,0
+1528354295389,413,Amazon S3_计算字段_编辑,200,OK,计算字段 4-1,true,,524,2249,https://stagingmiddle.datadeck.com/api/v2/calculatedFields/659d3714-5701-49fc-b7e6-e2cdac2983d7,413,1,0,chenchen-mac-2.local,0,150
+1528354295803,1606,Amazon S3_计算字段_数据正确性检查,200,OK,计算字段 4-1,true,,964,2948,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,1606,1,0,chenchen-mac-2.local,0,0
+1528354297410,257,Amazon S3_计算字段_删除,204,No Content,计算字段 4-1,true,,130,430,https://stagingmiddle.datadeck.com/api/v2/calculatedFields/659d3714-5701-49fc-b7e6-e2cdac2983d7,0,1,0,chenchen-mac-2.local,0,130
+1528354297667,99,Amazon S3_计算字段_数量检查,200,OK,计算字段 4-1,true,,278,483,https://stagingmiddle.datadeck.com/api/v2/spaces/f6d9eb62-4e84-420b-8227-f745efc1c243/datasources/71fb299b-886b-4959-bd7e-ac854d169275/calculatedFields,99,1,0,chenchen-mac-2.local,0,0
+1528354297784,747,Amazon S3_过滤器_日期类型,200,OK,过滤器 5-1,true,,1260,5089,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,747,1,0,chenchen-mac-2.local,0,332
+1528354298531,876,Amazon S3_过滤器_数值类型,200,OK,过滤器 5-1,true,,1349,5061,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,876,1,0,chenchen-mac-2.local,0,145
+1528354299408,537,Amazon S3_过滤器_字符类型_选择,200,OK,过滤器 5-1,true,,1101,5118,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,536,1,0,chenchen-mac-2.local,0,134
+1528354299945,564,Amazon S3_过滤器_字符类型_全部,200,OK,过滤器 5-1,true,,1517,5058,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,563,1,0,chenchen-mac-2.local,0,140
+1528354300510,1918,Amazon S3_过滤器_字符类型_条件,200,OK,过滤器 5-1,true,,1461,5069,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,1918,1,0,chenchen-mac-2.local,0,141
+1528359942258,543,Amazon S3_接口可用性_获取账户,200,OK,接口可用性 1-1,true,,494,0,https://stagingmiddle.datadeck.com/api/v1/datasources/f6d9eb62-4e84-420b-8227-f745efc1c243/20/accounts,543,1,0,chenchen-mac-2.local,0,0
+1528359942827,303,Amazon S3_接口可用性_获取文件,200,OK,接口可用性 1-1,true,,660,514,https://stagingmiddle.datadeck.com/api/v1/commands/recipient,303,1,0,chenchen-mac-2.local,0,154
+1528359943131,294,Amazon S3_接口可用性_获取字段列表,200,OK,接口可用性 1-1,true,,1952,0,https://stagingmiddle.datadeck.com/api/v1/datasources/cc30a176-8364-434a-8254-15587722edeb/fields%20,294,1,0,chenchen-mac-2.local,0,0
+1528359943426,876,Amazon S3_接口可用性_过滤器维度值列表,200,OK,接口可用性 1-1,true,,592,1414,https://stagingmiddle.datadeck.com/api/v1/commands/recipient,875,1,0,chenchen-mac-2.local,0,129
+1528359944302,614,Amazon S3_接口可用性_Widget取数,200,OK,接口可用性 1-1,true,,1203,4568,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,614,1,0,chenchen-mac-2.local,0,132
+1528359944936,444,Amazon S3_DSP_数据源类型,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_数据源类型检查正确！,1929,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,443,1,0,chenchen-mac-2.local,0,336
+1528359945472,253,Amazon S3_DSP_数据源选择,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_数据源选择检查正确！,1923,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,253,1,0,chenchen-mac-2.local,0,144
+1528359945756,242,Amazon S3_DSP_图表类型,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_图表类型检查正确！,1921,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,242,1,0,chenchen-mac-2.local,0,133
+1528359946023,249,Amazon S3_DSP_图表类型_地图,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_图表类型_地图检查正确！,1911,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,248,1,0,chenchen-mac-2.local,0,142
+1528359946285,297,Amazon S3_DSP_计算方式,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_计算方式检查正确！,1938,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,296,1,0,chenchen-mac-2.local,0,175
+1528359946599,232,Amazon S3_DSP_计算字段,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_计算字段检查正确！,1938,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,232,1,0,chenchen-mac-2.local,0,133
+1528359946844,263,Amazon S3_DSP_时间Group by,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_时间Group by检查正确！,1916,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,263,1,0,chenchen-mac-2.local,0,149
+1528359947128,253,Amazon S3_DSP_时间控件,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_时间控件检查正确！,1908,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,253,1,0,chenchen-mac-2.local,0,142
+1528359947401,252,Amazon S3_DSP_时间控件_Alltime,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_时间控件_Alltime检查正确！,1929,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,252,1,0,chenchen-mac-2.local,0,143
+1528359947665,259,Amazon S3_DSP_过滤器_日期类型,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_过滤器_日期类型检查正确！,1929,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,259,1,0,chenchen-mac-2.local,0,148
+1528359947942,264,Amazon S3_DSP_过滤器_数值类型,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_过滤器_数值类型检查正确！,1929,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,264,1,0,chenchen-mac-2.local,0,150
+1528359948224,236,Amazon S3_DSP_过滤器_字符类型_选择,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_过滤器_字符类型_选择检查正确！,1918,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,235,1,0,chenchen-mac-2.local,0,131
+1528359948477,263,Amazon S3_DSP_过滤器_字符类型_条件,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_过滤器_字符类型_条件检查正确！,1950,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,263,1,0,chenchen-mac-2.local,0,146
+1528359948753,239,Amazon S3_DSP_时间粒度,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_时间粒度检查正确！,1922,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,238,1,0,chenchen-mac-2.local,0,132
+1528359949012,261,Amazon S3_DSP_档案切换,200,OK,数据源特殊性 2-1,true,Amazon S3_DSP_档案切换检查正确！,1930,398,https://stagingmiddle.datadeck.com/api/v1/datasources/20/configurations,261,1,0,chenchen-mac-2.local,0,146
+1528359949296,720,Amazon S3_DSP_未来时间,200,OK,数据源特殊性_未来时间 3-1,true,,550,4573,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,720,1,0,chenchen-mac-2.local,0,321
+1528359950025,728,Amazon S3_计算字段_创建,200,OK,计算字段 4-1,true,,525,1621,https://stagingmiddle.datadeck.com/api/v2/calculatedFields,728,1,0,chenchen-mac-2.local,0,331
+1528359950754,489,Amazon S3_计算字段_数据正确性检查,200,OK,计算字段 4-1,true,,961,2948,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,489,1,0,chenchen-mac-2.local,0,0
+1528359951244,770,Amazon S3_计算字段_过滤器_数据正确性检查,200,OK,计算字段 4-1,true,,965,4646,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,770,1,0,chenchen-mac-2.local,0,0
+1528359952015,292,Amazon S3_计算字段_编辑,200,OK,计算字段 4-1,true,,524,2249,https://stagingmiddle.datadeck.com/api/v2/calculatedFields/b3f794ee-e1ae-466e-bf81-b3bdec796124,292,1,0,chenchen-mac-2.local,0,0
+1528359952308,693,Amazon S3_计算字段_数据正确性检查,200,OK,计算字段 4-1,true,,962,2948,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,693,1,0,chenchen-mac-2.local,0,128
+1528359953002,134,Amazon S3_计算字段_删除,204,No Content,计算字段 4-1,true,,130,430,https://stagingmiddle.datadeck.com/api/v2/calculatedFields/b3f794ee-e1ae-466e-bf81-b3bdec796124,0,1,0,chenchen-mac-2.local,0,0
+1528359953137,101,Amazon S3_计算字段_数量检查,200,OK,计算字段 4-1,true,,278,483,https://stagingmiddle.datadeck.com/api/v2/spaces/f6d9eb62-4e84-420b-8227-f745efc1c243/datasources/cc30a176-8364-434a-8254-15587722edeb/calculatedFields,101,1,0,chenchen-mac-2.local,0,0
+1528359953246,886,Amazon S3_过滤器_日期类型,200,OK,过滤器 5-1,true,,1260,5089,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,885,1,0,chenchen-mac-2.local,0,344
+1528359954132,614,Amazon S3_过滤器_数值类型,200,OK,过滤器 5-1,true,,1349,5061,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,614,1,0,chenchen-mac-2.local,0,144
+1528359954746,611,Amazon S3_过滤器_字符类型_选择,200,OK,过滤器 5-1,true,,1103,5118,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,611,1,0,chenchen-mac-2.local,0,142
+1528359955357,615,Amazon S3_过滤器_字符类型_全部,200,OK,过滤器 5-1,true,,1516,5058,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,614,1,0,chenchen-mac-2.local,0,126
+1528359955972,614,Amazon S3_过滤器_字符类型_条件,200,OK,过滤器 5-1,true,,1461,5069,https://stagingmiddle.datadeck.com/api/v1/widgets/data/preview,613,1,0,chenchen-mac-2.local,0,147
