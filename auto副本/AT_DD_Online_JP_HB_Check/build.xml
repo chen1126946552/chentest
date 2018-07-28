@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="ant-jmeter-test" default="run" basedir=".">
+    <tstamp>
+        <format property="time" pattern="yyyy-MM-dd_HH_mm" locale="zh" timezone="Asia/Shanghai"/>
+    </tstamp>
+    <!-- 需要改成 Jmeter 安装目录-->  
+    <property name="jmeter.home" value="/usr/jmeter" />
+  
+	<!--jemkins拉取gitlab脚本到默认工作空间/root/.jenkins/workspace/xx项目xx -->
+	<property name="script.dir" value="./script"/> 
+
+	<!--报告存放根目录（httpd设置）-->
+	<!-- 原始jtl报告存放-->
+	<property name="jmeter.report" value="/data/www/qa"/>
+	<property name="jmeter.report.jtl" value="${jmeter.report}/jtl"/>
+	<!--转换成html 至Apache服务器下，通过浏览器访问-->
+	<property name="jmeter.report.html" value="/data/www/qa"/>
+	
+	<!-- JP_jmeter生成jtl格式的结果报告的路径--> 
+    <property name="jmeter.result.jtl.dir" value="${jmeter.report.jtl}/DD/Online/JP/HB/Check" />
+    <!-- JP_jmeter生成html格式的结果报告的路径-->
+    <property name="jmeter.result.html.dir" value="${jmeter.report.html}/DD/Online/JP/HB/Check" />
+
+	<!-- 生成的JP报告-->  
+    <property name="ReportName" value="TestReport_HB_Check_" />
+    <property name="jmeter.result.jtlName" value="${jmeter.result.jtl.dir}/${ReportName}${time}.jtl" />
+    <property name="jmeter.result.htmlName" value="${jmeter.result.html.dir}/${ReportName}${time}.html" />
+	<property name="report.title" value="${time}_AT_DD_Online_JP_HB_Check_Report.JP"/>
+
+    <!--任务列表-->
+    <target name="run">
+        <antcall target="Test_case" />
+		<antcall target="Test_report" />	
+    </target>
+	
+    <!--JP运行任务-->
+    <target name="Test_case">
+        <taskdef name="jmeter" classname="org.programmerplanet.ant.taskdefs.jmeter.JMeterTask" />
+		<!--指定 jmeter环境，输出jtl结果路径-->
+        <jmeter jmeterhome="${jmeter.home}" resultlog="${jmeter.result.jtlName}">
+            <!-- 指定脚本路径。"*.jmx"指包含此目录下的所有jmeter脚本-->
+            <testplans dir="${script.dir}" includes="DD_HB_Check.jmx" />
+			<property name="jmeter.save.saveservice.output_format" value="xml"/>
+        </jmeter>
+    </target>
+		
+	<path id="xslt.classpath">
+        <fileset dir="${jmeter.home}/lib" includes="xalan*.jar"/>
+        <fileset dir="${jmeter.home}/lib" includes="serializer*.jar"/>
+    </path>
+	
+	<!--JP生成report-->
+    <target name="Test_report">
+        <tstamp><format property="report.datestamp" pattern="yyyy-MM-dd_HH_mm" locale="zh" timezone="Asia/Shanghai"/></tstamp>
+        <!-- in 读取jtl，out 输出html，style 套用模板 -->
+		<xslt
+            classpathref="xslt.classpath"
+            force="true"
+            in="${jmeter.result.jtlName}"
+            out="${jmeter.result.htmlName}"
+            style="${jmeter.home}/extras/jmeter-results-report-loadtest.xsl">
+            <param name="showData" expression="${show-data}"/>
+            <param name="titleReport" expression="${report.title}"/>
+            <param name="dateReport" expression="${report.datestamp}"/>
+        </xslt>
+		<copy todir="${jmeter.result.html.dir}">
+            <fileset dir="${jmeter.home}/extras">
+                <include name="collapse.png" />
+                <include name="expand.png" />
+            </fileset>
+        </copy>
+    </target>
+
+</project>
