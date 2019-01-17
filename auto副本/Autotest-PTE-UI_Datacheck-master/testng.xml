@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- tests，两个test节点将同时触发，classes，当某个classers下有多个class节点时，class将同时触发，但test按顺序执行-->
+<suite name="ptengine--UI" parallel="tests" thread-count="2">
+
+    <!--<根据情况，可以将不同case按suite或者class进行拆分。按suite拆分，此处的多线程并发实际不会生效>-->
+    <!--<suite-files>-->
+    <!--<suite-file path="test1.xml"></suite-file>-->
+    <!--&lt;!&ndash;<suite-file path="test2"></suite-file>&ndash;&gt;-->
+    <!--</suite-files>-->
+
+
+    <!--此处有个问题待解决，由于使用多线程并发，如果使用同一套.java类，失败case（对应的method）指定的重试次数将分配给多个线程
+          多浏览器时，不会每个浏览器都重试指定次数。比如需要重试10次，可能出现FF重试了9次，chrome只重试了一次，另外，如果同一个case都失败了，但每个浏览器失败
+          的原因不一致时，无法区分，暂时的办法为，chrome 复制了ff的代码，从类名上进行区分，生成报告时，根据类名+case名，将截图插入至对应的节点-->
+
+    <!--按test区分，主要考虑到 报告生成的节点需要区分，多线程需要获取parameter参数信息，所以不将classer下写入多个class-->
+    <!--<test name ="firefox" preserve-order="true">-->
+    <!--<parameter name="browser" value="firefox" />-->
+    <!--<classes>-->
+    <!--<class name="ptenginecase.Firefox">-->
+    <!--&lt;!&ndash;写入methods，include代表需要执行，exclude代表不需要执行，执行顺序从上至下-->
+    <!--class下不写methods节点，标示@test的方法将全部执行，并发时乱序&ndash;&gt;-->
+    <!--<methods>-->
+    <!--<include name="login"/>-->
+    <!--<include name="DCoverview"/>-->
+    <!--<include name="campaignmenu"/>-->
+    <!--<include name="referralmenu"/>-->
+    <!--<include name="searchmenu"/>-->
+    <!--<include name="keywordmenu"/>-->
+    <!--<include name="socialmenu"/>-->
+    <!--<include name="devicemenu"/>-->
+    <!--<include name="osmenu"/>-->
+    <!--<include name="browsermenu"/>-->
+    <!--<include name="resolutionmenu"/>-->
+    <!--<include name="locationmenu"/>-->
+    <!--</methods>-->
+    <!--</class>-->
+    <!--</classes>-->
+    <!--</test>-->
+
+    <test name="chrome" preserve-order="true">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.ptengine.testcase.TestWithPOM">
+                <methods>
+                    <include name="login"/>
+
+                    <include name="intoProfile"/>
+                    <include name="checkDashboard"/>
+                    <include name="checkHeatmap"/>
+
+
+
+                    <!--<include name="socialmenu"/>-->
+                    <!--<include name="devicemenu"/>-->
+                    <!--<include name="osmenu"/>-->
+                    <!--<include name="browsermenu"/>-->
+                    <!--<include name="resolutionmenu"/>-->
+                    <!--<include name="locationmenu"/>-->
+                    <!--<include name="pagemenu"/>-->
+                    <!--<include name="entrypagemenu"/>-->
+                    <!--<include name="campaignOverviewmenu"/>-->
+                    <!--<include name="eventmenu"/>-->
+                    <!--<include name="eventAnalyticsmenu"/>-->
+                    <!--<include name="eventAnalyticstabmenu"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <!--com.listener class-name="com.listener.TestngListener"/-->
+        <!--<com.listener class-name="com.listener.ExtentTestNGIReporterListener1"/>-->
+        <listener class-name="com.listener.ExtentTestNGITestListener"/>
+    </listeners>
+</suite>
