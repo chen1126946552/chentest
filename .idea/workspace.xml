@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3662bced-c9b9-476b-b319-5832644b04a8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/help_test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case100/34_campFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/case100/34_campFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case100/astudent.py" beforeDir="false" afterPath="$PROJECT_DIR$/case100/astudent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case100/qingqiu.py" beforeDir="false" afterPath="$PROJECT_DIR$/case100/37_qingqiu.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,31 +16,43 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/case100/qingqiu.py">
+        <entry file="file://$PROJECT_DIR$/case100/38_multiprocessing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case100/39_pool.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-column="23" />
+              <caret column="23" lean-forward="true" selection-start-column="6" selection-end-column="23" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#43#75#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/case100/34_campFile.py">
+        <entry file="file://$PROJECT_DIR$/case100/40_subprocess.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-column="23" />
+              <caret selection-end-line="2" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/case100/35_strDic.py">
+        <entry file="file://$PROJECT_DIR$/case100/41_process.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#34#76#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,15 +75,21 @@
         <option value="$PROJECT_DIR$/case100/qingqiu.py" />
         <option value="$PROJECT_DIR$/case100/32_qingqiu.py" />
         <option value="$PROJECT_DIR$/case100/33_qingqiuClass.py" />
-        <option value="$PROJECT_DIR$/case100/34_campFile.py" />
         <option value="$PROJECT_DIR$/case100/35_strDic.py" />
+        <option value="$PROJECT_DIR$/case100/34_campFile.py" />
+        <option value="$PROJECT_DIR$/case100/astudent.py" />
+        <option value="$PROJECT_DIR$/case100/38_multiprocessing.py" />
+        <option value="$PROJECT_DIR$/case100/36_campPost.py" />
+        <option value="$PROJECT_DIR$/case100/39_pool.py" />
+        <option value="$PROJECT_DIR$/case100/40_subprocess.py" />
+        <option value="$PROJECT_DIR$/case100/41_process.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
-    <option name="y" value="23" />
-    <option name="width" value="1273" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="401" />
+    <option name="y" value="28" />
+    <option name="width" value="873" />
     <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -100,6 +121,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/case100" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -113,8 +140,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.qingqiu">
-    <configuration name="01_helloword" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.41_process">
+    <configuration name="36_campPost" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,7 +153,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case100/01_helloword.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case100/36_campPost.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="qingqiu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="38_multiprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,7 +174,70 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case100/qingqiu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case100/38_multiprocessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="39_pool" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chentest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case100" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case100/39_pool.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="40_subprocess" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chentest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case100" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case100/40_subprocess.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="41_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chentest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case100" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case100/41_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,8 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.qingqiu" />
-        <item itemvalue="Python.01_helloword" />
+        <item itemvalue="Python.41_process" />
+        <item itemvalue="Python.40_subprocess" />
+        <item itemvalue="Python.39_pool" />
+        <item itemvalue="Python.38_multiprocessing" />
+        <item itemvalue="Python.36_campPost" />
       </list>
     </recent_temporary>
   </component>
@@ -177,15 +270,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="23" width="1273" height="773" extended-state="0" />
+    <frame x="401" y="28" width="873" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17971246" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.03521127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13215859" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40381792" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -234,27 +327,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case100/qingqiu.py">
+    <entry file="file://$PROJECT_DIR$/case100/35_strDic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/3.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/34_campFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/astudent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/ParamVaule_v2.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/37_qingqiu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/38_multiprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/36_campPost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="91" column="3" selection-start-line="91" selection-start-column="3" selection-end-line="91" selection-end-column="3" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#81#96#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case100/34_campFile.py">
+    <entry file="file://$PROJECT_DIR$/case100/39_pool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-column="23" />
+          <caret column="23" lean-forward="true" selection-start-column="6" selection-end-column="23" />
+          <folding>
+            <element signature="e#43#75#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case100/35_strDic.py">
+    <entry file="file://$PROJECT_DIR$/case100/40_subprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        <state>
+          <caret selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/41_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#34#76#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

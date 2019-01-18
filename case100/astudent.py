@@ -1,3 +1,6 @@
+# -*- coding: UTF-8 -*-
+# 31文件中需要引入的对象
+
 class Student(object):
 	def __init__(self, name, score):
 		self.name = name
