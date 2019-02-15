@@ -13,5 +13,27 @@ else:
 with open("json.csv", "rt") as in_file:
     text = in_file.read()
 
-m = re.match(r'\"metricsName\":\".*?\"', text)
-print(m)
+print(text)
+widgetId = re.findall(r'\"widgetId\":\".*?\"', text)
+print(widgetId)
+
+panelId = re.findall(r'\"panelId\":\".*?\"', text)
+print(panelId)
+
+categories = re.findall(r'\"categories\":\[.*?\]', text)
+print(categories)
+
+metricsNameList = re.findall(r'\"metricsName\":\".*?\"', text)
+print(metricsNameList)
+
+dimensionsList = re.findall(r'\"dimensions\":\".*?\"', text)
+print(dimensionsList)
+
+dateRangeList = re.findall(r'\"dateRange\":\[.*?\]', text)
+print(dateRangeList)
+
+rowsList = re.findall(r'\"rows\":\[.*?\]', text)
+print(rowsList)
+
+metricsTotalsMapValue = re.findall(r'\"metricsTotalsMap\":\{\"value\":.*?(?=,)\}\"', text)
+print(metricsTotalsMapValue)
