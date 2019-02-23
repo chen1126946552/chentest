@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3662bced-c9b9-476b-b319-5832644b04a8" name="Default Changelist" comment="">
+    <list default="true" id="0094529b-7ddf-4bc9-8882-66f030811af2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gongcheng/homework1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/homework2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/homework3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/homework4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/riji.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/test3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case100/25_fileIO.py" beforeDir="false" afterPath="$PROJECT_DIR$/case100/25_fileIO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case100/32_qingqiu.py" beforeDir="false" afterPath="$PROJECT_DIR$/case100/32_qingqiu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case100/33_qingqiuClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/case100/33_qingqiuClass.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case100/47_re.py" beforeDir="false" afterPath="$PROJECT_DIR$/case100/47_re.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case100/json.csv" beforeDir="false" afterPath="$PROJECT_DIR$/case100/json.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,15 +20,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/case100/55_baidu.py">
+        <entry file="file://$PROJECT_DIR$/gongcheng/homework4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#25#55#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -34,15 +35,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>metricsName</find>
-      <find>metricsName{&quot;success&quot;:true,&quot;message&quot;:null,&quot;stackTrace&quot;:null,&quot;data&quot;:{&quot;widgetId&quot;:&quot;25569aae-1ebf-4e5d-8c23-67e45895d553&quot;,&quot;panelId&quot;:&quot;b6e6858d-0775-41ac-bdff-49176e3e43b2&quot;,&quot;categories&quot;:[&quot;2018-12-15&quot;,&quot;2018-12-16&quot;,&quot;2018-12-17&quot;,&quot;2018-12-18&quot;,&quot;2018-12-19&quot;,&quot;2018-12-20&quot;],&quot;data&quot;:[{&quot;variableId&quot;:&quot;4331b98f-e067-4b3d-a849-dc6bf1caabf4-6a89c5ba-8bfe-4231-b519-e7273a888450数量B&quot;,&quot;variableName&quot;:&quot;B&quot;,&quot;metricsId&quot;:null,&quot;metricsCode&quot;:&quot;数量&quot;,&quot;metricsName&quot;:&quot;数量&quot;,&quot;metricsSign&quot;:&quot;数量-sum-B&quot;,&quot;metricsNames&quot;:null,&quot;metricsKey&quot;:&quot;6a89c5ba-8bfe-4231-b519-e7273a888450&quot;,&quot;dimensionsKey&quot;:null,&quot;dimensionsId&quot;:&quot;&quot;,&quot;dimensions&quot;:&quot;文章&quot;,&quot;stack&quot;:&quot;数量&quot;,&quot;dataTypeMap&quot;:{&quot;1bbd4a87-e68d-47ff-888e-10ab6fafadb8&quot;:&quot;STRING&quot;,&quot;24819936-5242-411f-8e23-ea60558c9d7c&quot;:&quot;DATE&quot;,&quot;6a89c5ba-8bfe-4231-b519-e7273a888450&quot;:&quot;NUMBER&quot;},&quot;dataFormatMap&quot;:{&quot;1bbd4a87-e68d-47ff-888e-10ab6fafadb8&quot;:null,&quot;24819936-5242-411f-8e23-ea60558c9d7c&quot;:&quot;yyyy-MM-dd&quot;,&quot;6a89c5ba-8bfe-4231-b519-e7273a888450&quot;:null},&quot;unitMap&quot;:{&quot;1bbd4a87-e68d-47ff-888e-10ab6fafadb8&quot;:&quot;&quot;,&quot;24819936-5242-411f-8e23-ea60558c9d7c&quot;:&quot;&quot;,&quot;6a89c5ba-8bfe-4231-b519-e7273a888450&quot;:&quot;&quot;},&quot;datePeriod&quot;:null,&quot;dateRange&quot;:[&quot;&quot;,&quot;&quot;],&quot;graphType&quot;:&quot;COLUMN&quot;,&quot;tableColumnIdList&quot;:null,&quot;rows&quot;:[[&quot;2018-12-16&quot;,30.0000],[&quot;2018-12-18&quot;,30.0000],[&quot;2018-12-20&quot;,10.0000]],&quot;totals&quot;:{&quot;6a89c5ba-8bfe-4231-b519-e7273a888450&quot;:70.0},&quot;color&quot;:null,&quot;colorMap&quot;:{},&quot;sortType&quot;:&quot;dimensionValue&quot;,&quot;orderType&quot;:&quot;date&quot;,&quot;orderRule&quot;:&quot;asc&quot;,&quot;orderColumn&quot;:&quot;24819936-5242-411f-8e23-ea60558c9d7c&quot;,&quot;orderDimensionDataType&quot;:&quot;DATE&quot;,&quot;orderDimensionDataFormat&quot;:&quot;yyyy-MM-dd&quot;,&quot;max&quot;:1000,&quot;showOthers&quot;:&quot;0&quot;,&quot;metricsTotalsMap&quot;:{},&quot;useDatetimeAxis&quot;:false,&quot;xAxisDateDimensionList&quot;:[{&quot;id&quot;:null,&quot;alias&quot;:null,&quot;name&quot;:&quot;riqi&quot;,&quot;code&quot;:&quot;riqi&quot;,&quot;queryCode&quot;:null,&quot;i18nCode&quot;:null,&quot;type&quot;:&quot;DIMENSION&quot;,&quot;dataType&quot;:&quot;DATE&quot;,&quot;sourceDataType&quot;:null,&quot;dataFormat&quot;:&quot;yyyy-MM-dd&quot;,&quot;unit&quot;:&quot;&quot;,&quot;description&quot;:null,&quot;categoryId&quot;:null,&quot;categoryCode&quot;:null,&quot;allowSegment&quot;:null,&quot;allowFilter&quot;:null,&quot;allowScope&quot;:null,&quot;defaultScope&quot;:null,&quot;orderNumber&quot;:null,&quot;hasFilterItem&quot;:null,&quot;segmentUserSession&quot;:null,&quot;filterUserSession&quot;:null,&quot;filterItemList&quot;:null,&quot;columnType&quot;:null,&quot;uid&quot;:null,&quot;dsId&quot;:null,&quot;dsCode&quot;:null,&quot;connectionId&quot;:null,&quot;sourceId&quot;:null,&quot;tableId&quot;:null,&quot;uuid&quot;:&quot;24819936-5242-411f-8e23-ea60558c9d7c&quot;,&quot;datePeriod&quot;:&quot;day&quot;,&quot;datePeriodType&quot;:&quot;xAxis&quot;,&quot;formula&quot;:null,&quot;isContainsFunc&quot;:null,&quot;validateStatus&quot;:&quot;1&quot;,&quot;calculateType&quot;:null,&quot;dataScope&quot;:null,&quot;skipExistCheck&quot;:null,&quot;realName&quot;:null,&quot;i18nName&quot;:null,&quot;showMetricAmount&quot;:null,&quot;segment&quot;:null,&quot;sort&quot;:null,&quot;max&quot;:null,&quot;showOthers&quot;:null,&quot;isDefaultSelect&quot;:null,&quot;isShowOnTimeDropdowns&quot;:0,&quot;fieldType&quot;:&quot;xAxis&quot;,&quot;showName&quot;:&quot;riqi&quot;,&quot;percentValue&quot;:false}],&quot;dataKey&quot;:&quot;08b593ec-b9da-4563-b71e-e8db0bad775c&quot;,&quot;extInfo&quot;:{},&quot;isDetail&quot;:false,&quot;useMemerySort&quot;:true},{&quot;variableId&quot;:&quot;4331b98f-e067-4b3d-a849-dc6bf1caabf4-6a89c5ba-8bfe-4231-b519-e7273a888450数量A&quot;,&quot;variableName&quot;:&quot;A&quot;,&quot;metricsId&quot;:null,&quot;metricsCode&quot;:&quot;数量&quot;,&quot;metricsName&quot;:&quot;数量&quot;,&quot;metricsSign&quot;:&quot;数量-sum-A&quot;,&quot;metricsNames&quot;:null,&quot;metricsKey&quot;:&quot;6a89c5ba-8bfe-4231-b519-e7273a888450&quot;,&quot;dimensionsKey&quot;:null,&quot;dimensionsId&quot;:&quot;&quot;,&quot;dimensions&quot;:&quot;文章&quot;,&quot;stack&quot;:&quot;数量&quot;,&quot;dataTypeMap&quot;:{&quot;1bbd4a87-e68d-47ff-888e-10ab6fafadb8&quot;:&quot;STRING&quot;,&quot;24819936-5242-411f-8e23-ea60558c9d7c&quot;:&quot;DATE&quot;,&quot;6a89c5ba-8bfe-4231-b519-e7273a888450&quot;:&quot;NUMBER&quot;},&quot;dataFormatMap&quot;:{&quot;1bbd4a87-e68d-47ff-888e-10ab6fafadb8&quot;:null,&quot;24819936-5242-411f-8e23-ea60558c9d7c&quot;:&quot;yyyy-MM-dd&quot;,&quot;6a89c5ba-8bfe-4231-b519-e7273a888450&quot;:null},&quot;unitMap&quot;:{&quot;1bbd4a87-e68d-47ff-888e-10ab6fafadb8&quot;:&quot;&quot;,&quot;24819936-5242-411f-8e23-ea60558c9d7c&quot;:&quot;&quot;,&quot;6a89c5ba-8bfe-4231-b519-e7273a888450&quot;:&quot;&quot;},&quot;datePeriod&quot;:null,&quot;dateRange&quot;:[&quot;&quot;,&quot;&quot;],&quot;graphType&quot;:&quot;COLUMN&quot;,&quot;tableColumnIdList&quot;:null,&quot;rows&quot;:[[&quot;2018-12-15&quot;,20.0000],[&quot;2018-12-17&quot;,30.0000],[&quot;2018-12-19&quot;,10.0000]],&quot;totals&quot;:{&quot;6a89c5ba-8bfe-4231-b519-e7273a888450&quot;:60.0},&quot;color&quot;:null,&quot;colorMap&quot;:{},&quot;sortType&quot;:&quot;dimensionValue&quot;,&quot;orderType&quot;:&quot;date&quot;,&quot;orderRule&quot;:&quot;asc&quot;,&quot;orderColumn&quot;:&quot;24819936-5242-411f-8e23-ea60558c9d7c&quot;,&quot;orderDimensionDataType&quot;:&quot;DATE&quot;,&quot;orderDimensionDataFormat&quot;:&quot;yyyy-MM-dd&quot;,&quot;max&quot;:1000,&quot;showOthers&quot;:&quot;0&quot;,&quot;metricsTotalsMap&quot;:{&quot;6a89c5ba-8bfe-4231-b519-e7273a888450&quot;:{&quot;id&quot;:null,&quot;unit&quot;:&quot;&quot;,&quot;dataType&quot;:&quot;NUMBER&quot;,&quot;showName&quot;:&quot;数量&quot;,&quot;name&quot;:&quot;数量&quot;,&quot;value&quot;:160.0000,&quot;dataFormat&quot;:null,&quot;code&quot;:&quot;数量&quot;,&quot;key&quot;:&quot;6a89c5ba-8bfe-4231-b519-e7273a888450&quot;}},&quot;useDatetimeAxis&quot;:false,&quot;xAxisDateDimensionList&quot;:[{&quot;id&quot;:null,&quot;alias&quot;:null,&quot;name&quot;:&quot;riqi&quot;,&quot;code&quot;:&quot;riqi&quot;,&quot;queryCode&quot;:null,&quot;i18nCode&quot;:null,&quot;type&quot;:&quot;DIMENSION&quot;,&quot;dataType&quot;:&quot;DATE&quot;,&quot;sourceDataType&quot;:null,&quot;dataFormat&quot;:&quot;yyyy-MM-dd&quot;,&quot;unit&quot;:&quot;&quot;,&quot;description&quot;:null,&quot;categoryId&quot;:null,&quot;categoryCode&quot;:null,&quot;allowSegment&quot;:null,&quot;allowFilter&quot;:null,&quot;allowScope&quot;:null,&quot;defaultScope&quot;:null,&quot;orderNumber&quot;:null,&quot;hasFilterItem&quot;:null,&quot;segmentUserSession&quot;:null,&quot;filterUserSession&quot;:null,&quot;filterItemList&quot;:null,&quot;columnType&quot;:null,&quot;uid&quot;:null,&quot;dsId&quot;:null,&quot;dsCode&quot;:null,&quot;connectionId&quot;:null,&quot;sourceId&quot;:null,&quot;tableId&quot;:null,&quot;uuid&quot;:&quot;24819936-5242-411f-8e23-ea60558c9d7c&quot;,&quot;datePeriod&quot;:&quot;day&quot;,&quot;datePeriodType&quot;:&quot;xAxis&quot;,&quot;formula&quot;:null,&quot;isContainsFunc&quot;:null,&quot;validateStatus&quot;:&quot;1&quot;,&quot;calculateType&quot;:null,&quot;dataScope&quot;:null,&quot;skipExistCheck&quot;:null,&quot;realName&quot;:null,&quot;i18nName&quot;:null,&quot;showMetricAmount&quot;:null,&quot;segment&quot;:null,&quot;sort&quot;:null,&quot;max&quot;:null,&quot;showOthers&quot;:null,&quot;isDefaultSelect&quot;:null,&quot;isShowOnTimeDropdowns&quot;:0,&quot;fieldType&quot;:&quot;xAxis&quot;,&quot;showName&quot;:&quot;riqi&quot;,&quot;percentValue&quot;:false}],&quot;dataKey&quot;:&quot;08b593ec-b9da-4563-b71e-e8db0bad775c&quot;,&quot;extInfo&quot;:{},&quot;isDetail&quot;:false,&quot;useMemerySort&quot;:true},{&quot;variableId&quot;:&quot;4331b98f-e067-4b3d-a849-dc6bf1caabf4-6a89c5ba-8bfe-4231-b519-e7273a888450数量(Blank)&quot;,&quot;variableName&quot;:&quot;(Blank)&quot;,&quot;metricsId&quot;:null,&quot;metricsCode&quot;:&quot;数量&quot;,&quot;metricsName&quot;:&quot;数量&quot;,&quot;metricsSign&quot;:&quot;数量-sum-(Blank)&quot;,&quot;metricsNames&quot;:null,&quot;metricsKey&quot;:&quot;6a89c5ba-8bfe-4231-b519-e7273a888450&quot;,&quot;dimensionsKey&quot;:null,&quot;dimensionsId&quot;:&quot;&quot;,&quot;dimensions&quot;:&quot;文章&quot;,&quot;stack&quot;:&quot;数量&quot;,&quot;dataTypeMap&quot;:{&quot;1bbd4a87-e68d-47ff-888e-10ab6fafadb8&quot;:&quot;STRING&quot;,&quot;24819936-5242-411f-8e23-ea60558c9d7c&quot;:&quot;DATE&quot;,&quot;6a89c5ba-8bfe-4231-b519-e7273a888450&quot;:&quot;NUMBER&quot;},&quot;dataFormatMap&quot;:{&quot;1bbd4a87-e68d-47ff-888e-10ab6fafadb8&quot;:null,&quot;24819936-5242-411f-8e23-ea60558c9d7c&quot;:&quot;yyyy-MM-dd&quot;,&quot;6a89c5ba-8bfe-4231-b519-e7273a888450&quot;:null},&quot;unitMap&quot;:{&quot;1bbd4a87-e68d-47ff-888e-10ab6fafadb8&quot;:&quot;&quot;,&quot;24819936-5242-411f-8e23-ea60558c9d7c&quot;:&quot;&quot;,&quot;6a89c5ba-8bfe-4231-b519-e7273a888450&quot;:&quot;&quot;},&quot;datePeriod&quot;:null,&quot;dateRange&quot;:[&quot;&quot;,&quot;&quot;],&quot;graphType&quot;:&quot;COLUMN&quot;,&quot;tableColumnIdList&quot;:null,&quot;rows&quot;:[[&quot;2018-12-17&quot;,30.0000]],&quot;totals&quot;:{&quot;6a89c5ba-8bfe-4231-b519-e7273a888450&quot;:30.0},&quot;color&quot;:null,&quot;colorMap&quot;:{},&quot;sortType&quot;:&quot;dimensionValue&quot;,&quot;orderType&quot;:&quot;date&quot;,&quot;orderRule&quot;:&quot;asc&quot;,&quot;orderColumn&quot;:&quot;24819936-5242-411f-8e23-ea60558c9d7c&quot;,&quot;orderDimensionDataType&quot;:&quot;DATE&quot;,&quot;orderDimensionDataFormat&quot;:&quot;yyyy-MM-dd&quot;,&quot;max&quot;:1000,&quot;showOthers&quot;:&quot;0&quot;,&quot;metricsTotalsMap&quot;:{},&quot;useDatetimeAxis&quot;:false,&quot;xAxisDateDimensionList&quot;:[{&quot;id&quot;:null,&quot;alias&quot;:null,&quot;name&quot;:&quot;riqi&quot;,&quot;code&quot;:&quot;riqi&quot;,&quot;queryCode&quot;:null,&quot;i18nCode&quot;:null,&quot;type&quot;:&quot;DIMENSION&quot;,&quot;dataType&quot;:&quot;DATE&quot;,&quot;sourceDataType&quot;:null,&quot;dataFormat&quot;:&quot;yyyy-MM-dd&quot;,&quot;unit&quot;:&quot;&quot;,&quot;description&quot;:null,&quot;categoryId&quot;:null,&quot;categoryCode&quot;:null,&quot;allowSegment&quot;:null,&quot;allowFilter&quot;:null,&quot;allowScope&quot;:null,&quot;defaultScope&quot;:null,&quot;orderNumber&quot;:null,&quot;hasFilterItem&quot;:null,&quot;segmentUserSession&quot;:null,&quot;filterUserSession&quot;:null,&quot;filterItemList&quot;:null,&quot;columnType&quot;:null,&quot;uid&quot;:null,&quot;dsId&quot;:null,&quot;dsCode&quot;:null,&quot;connectionId&quot;:null,&quot;sourceId&quot;:null,&quot;tableId&quot;:null,&quot;uuid&quot;:&quot;24819936-5242-411f-8e23-ea60558c9d7c&quot;,&quot;datePeriod&quot;:&quot;day&quot;,&quot;datePeriodType&quot;:&quot;xAxis&quot;,&quot;formula&quot;:null,&quot;isContainsFunc&quot;:null,&quot;validateStatus&quot;:&quot;1&quot;,&quot;calculateType&quot;:null,&quot;dataScope&quot;:null,&quot;skipExistCheck&quot;:null,&quot;realName&quot;:null,&quot;i18nName&quot;:null,&quot;showMetricAmount&quot;:null,&quot;segment&quot;:null,&quot;sort&quot;:null,&quot;max&quot;:null,&quot;showOthers&quot;:null,&quot;isDefaultSelect&quot;:null,&quot;isShowOnTimeDropdowns&quot;:0,&quot;fieldType&quot;:&quot;xAxis&quot;,&quot;showName&quot;:&quot;riqi&quot;,&quot;percentValue&quot;:false}],&quot;dataKey&quot;:&quot;08b593ec-b9da-4563-b71e-e8db0bad775c&quot;,&quot;extInfo&quot;:{},&quot;isDetail&quot;:false,&quot;useMemerySort&quot;:true}],&quot;datePeriod&quot;:null,&quot;availableDatePeriod&quot;:[],&quot;maxValue&quot;:30.0,&quot;minValue&quot;:10.0,&quot;goals&quot;:null,&quot;graphType&quot;:&quot;COLUMN&quot;,&quot;status&quot;:&quot;success&quot;,&quot;errorCode&quot;:null,&quot;errorMsg&quot;:null,&quot;errorParam&quot;:null,&quot;errorLogs&quot;:null,&quot;sortType&quot;:null,&quot;orderType&quot;:&quot;date&quot;,&quot;orderRule&quot;:null,&quot;orderColumn&quot;:null,&quot;max&quot;:10,&quot;rows&quot;:null,&quot;showOthers&quot;:null,&quot;dsCode&quot;:&quot;gd&quot;,&quot;startDate&quot;:null,&quot;endDate&quot;:null,&quot;isCacheData&quot;:true,&quot;panelComponents&quot;:null,&quot;isDemoData&quot;:false,&quot;dataSetlastSyncTime&quot;:1548062588754,&quot;metricsAmountsMap&quot;:{&quot;6a89c5ba-8bfe-4231-b519-e7273a888450&quot;:{&quot;id&quot;:null,&quot;unit&quot;:&quot;&quot;,&quot;dataType&quot;:&quot;NUMBER&quot;,&quot;showName&quot;:&quot;数量&quot;,&quot;name&quot;:&quot;数量&quot;,&quot;value&quot;:160.0000,&quot;dataFormat&quot;:null,&quot;code&quot;:&quot;数量&quot;,&quot;key&quot;:&quot;6a89c5ba-8bfe-4231-b519-e7273a888450&quot;}},&quot;extInfo&quot;:{}},&quot;errorCode&quot;:null,&quot;params&quot;:null}</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,49 +46,33 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/case100/qingqiu.py" />
-        <option value="$PROJECT_DIR$/case100/34_campFile.py" />
-        <option value="$PROJECT_DIR$/case100/astudent.py" />
-        <option value="$PROJECT_DIR$/case100/38_multiprocessing.py" />
-        <option value="$PROJECT_DIR$/case100/36_campPost.py" />
-        <option value="$PROJECT_DIR$/case100/39_pool.py" />
-        <option value="$PROJECT_DIR$/case100/40_subprocess.py" />
-        <option value="$PROJECT_DIR$/case100/41_process.py" />
-        <option value="$PROJECT_DIR$/case100/42_thread.py" />
-        <option value="$PROJECT_DIR$/case100/43_lock.py" />
-        <option value="$PROJECT_DIR$/case100/44_threadlocal.py" />
-        <option value="$PROJECT_DIR$/case100/46_task_worker.py" />
-        <option value="$PROJECT_DIR$/case100/45_task_master.py" />
-        <option value="$PROJECT_DIR$/case100/json.csv" />
-        <option value="$PROJECT_DIR$/case100/47_re.py" />
-        <option value="$PROJECT_DIR$/case100/48_datetime.py" />
-        <option value="$PROJECT_DIR$/case100/49_timezone.py" />
-        <option value="$PROJECT_DIR$/case100/50_collections.py" />
-        <option value="$PROJECT_DIR$/case100/51_base64.py" />
-        <option value="$PROJECT_DIR$/case100/33_qingqiuClass.py" />
-        <option value="$PROJECT_DIR$/case100/32_qingqiu.py" />
-        <option value="$PROJECT_DIR$/case100/25_fileIO.py" />
-        <option value="$PROJECT_DIR$/case100/a.txt" />
-        <option value="$PROJECT_DIR$/case100/35_strDic.py" />
-        <option value="$PROJECT_DIR$/case100/52_file.py" />
-        <option value="$PROJECT_DIR$/case100/55_baidu.py" />
+        <option value="$PROJECT_DIR$/gongcheng/test1.py" />
+        <option value="$PROJECT_DIR$/gongcheng/test2.py" />
+        <option value="$PROJECT_DIR$/gongcheng/test3.py" />
+        <option value="$PROJECT_DIR$/gongcheng/test.html" />
+        <option value="$PROJECT_DIR$/gongcheng/homework3.py" />
+        <option value="$PROJECT_DIR$/gongcheng/riji.txt" />
+        <option value="$PROJECT_DIR$/gongcheng/homework1.py" />
+        <option value="$PROJECT_DIR$/gongcheng/homework2.py" />
+        <option value="$PROJECT_DIR$/gongcheng/homework4.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
+    <option name="x" value="44" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
+    <option name="width" value="1087" />
     <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,22 +83,21 @@
             <path>
               <item name="chentest" type="b2602c69:ProjectViewProjectNode" />
               <item name="chentest" type="462c0819:PsiDirectoryNode" />
-              <item name="case100" type="462c0819:PsiDirectoryNode" />
+              <item name="gongcheng" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/case100" />
+      <recent name="$PROJECT_DIR$/gongcheng" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -133,8 +112,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.55_baidu">
-    <configuration name="25_fileIO" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.homework4">
+    <configuration name="16_99" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,7 +125,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case100/25_fileIO.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case100/16_99.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="50_collections" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="homework1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,11 +142,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case100" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gongcheng" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case100/50_collections.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gongcheng/homework1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="51_base64" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="homework2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,11 +163,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case100" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gongcheng" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case100/51_base64.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gongcheng/homework2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,7 +176,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="52_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="homework3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,11 +184,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case100" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gongcheng" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case100/52_file.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gongcheng/homework3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,7 +197,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="55_baidu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="homework4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,11 +205,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case100" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gongcheng" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case100/55_baidu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gongcheng/homework4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.55_baidu" />
-        <item itemvalue="Python.52_file" />
-        <item itemvalue="Python.25_fileIO" />
-        <item itemvalue="Python.51_base64" />
-        <item itemvalue="Python.50_collections" />
+        <item itemvalue="Python.homework4" />
+        <item itemvalue="Python.homework2" />
+        <item itemvalue="Python.16_99" />
+        <item itemvalue="Python.homework1" />
+        <item itemvalue="Python.homework3" />
       </list>
     </recent_temporary>
   </component>
@@ -254,68 +233,42 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3662bced-c9b9-476b-b319-5832644b04a8" name="Default Changelist" comment="" />
-      <created>1547708114715</created>
+      <changelist id="0094529b-7ddf-4bc9-8882-66f030811af2" name="Default Changelist" comment="" />
+      <created>1550730401554</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1547708114715</updated>
+      <updated>1550730401554</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="23" width="1280" height="773" extended-state="0" />
+    <frame x="44" y="23" width="1087" height="773" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23431295" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110693" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40381792" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39941263" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32892805" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/case100/18_amusitelang.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/common/service.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/3.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/41_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding>
-            <element signature="e#34#76#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="139">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
         </state>
       </provider>
     </entry>
@@ -326,222 +279,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case100/42_thread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/43_lock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/44_threadlocal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/45_task_master.py">
+    <entry file="file://$PROJECT_DIR$/gongcheng/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongcheng/test3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
           <folding>
-            <element signature="e#47#73#0" expanded="true" />
+            <element signature="e#25#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case100/46_task_worker.py">
+    <entry file="file://$PROJECT_DIR$/gongcheng/test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="7" />
+        <state relative-caret-position="188">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="35" />
           <folding>
-            <element signature="e#47#70#0" expanded="true" />
+            <element signature="e#35#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case100/jmeter.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/ParamVaule_v2.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/widgetID_List.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/astudent.py">
+    <entry file="file://$PROJECT_DIR$/gongcheng/riji.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="170">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case100/48_datetime.py">
+    <entry file="file://$PROJECT_DIR$/gongcheng/test1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/47_re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/49_timezone.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/50_collections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" />
+        <state relative-caret-position="238">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
-            <element signature="e#93#127#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/case100/51_base64.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/30_list.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/33_qingqiuClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding>
-            <element signature="e#39#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/32_qingqiu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/36_campPost.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="66" column="11" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="20" />
-          <folding>
-            <element signature="e#81#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/json.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="154" selection-start-column="154" selection-end-column="154" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/37_qingqiu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-763">
-          <caret selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/38_multiprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/39_pool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/40_subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/a.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret column="810326" selection-start-column="810318" selection-end-column="810326" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/35_strDic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/a.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/25_fileIO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/34_campFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case100/52_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/common/service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/case100/55_baidu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="255">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/23_jisuanqi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/26_isstring.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/24_rili.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/28_monthDays.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/29_yesterday.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongcheng/homework1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/17_shulie.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/18_amusitelang.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/19_jinzhi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/16_99.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongcheng/homework2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongcheng/homework3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="23" />
           <folding>
             <element signature="e#25#55#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongcheng/homework4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>
