@@ -2,21 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0094529b-7ddf-4bc9-8882-66f030811af2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gongcheng/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gongcheng/datadeck/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gongcheng/datadeck/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gongcheng/studay/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/studay/day1-2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/studay/day3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/studay/day3/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/studay/day3/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/studay/day3/test3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gongcheng/homework1.py" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/homework1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gongcheng/homework2.py" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/homework2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gongcheng/homework3.py" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/homework3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gongcheng/homework4.py" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/homework4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gongcheng/riji.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/riji.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gongcheng/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gongcheng/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/test.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gongcheng/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gongcheng/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gongcheng/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/test3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gongcheng/studay/homework1.py" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/day1-2/homework1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gongcheng/studay/homework2.py" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/day1-2/homework2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gongcheng/studay/homework3.py" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/day1-2/homework3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gongcheng/studay/homework4.py" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/day1-2/homework4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gongcheng/studay/riji.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/day1-2/riji.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gongcheng/studay/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/day1-2/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gongcheng/studay/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/day1-2/test.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gongcheng/studay/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/day1-2/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gongcheng/studay/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/day1-2/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gongcheng/studay/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/day1-2/test3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,15 +26,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gongcheng/datadeck/login.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gongcheng/studay/day3/test1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-              <folding>
-                <element signature="e#26#56#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gongcheng/studay/day3/test2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gongcheng/studay/day3/test3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -47,6 +63,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>main</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,12 +85,15 @@
         <option value="$PROJECT_DIR$/gongcheng/homework2.py" />
         <option value="$PROJECT_DIR$/gongcheng/homework4.py" />
         <option value="$PROJECT_DIR$/gongcheng/datadeck/login.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day3/test1.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day3/test2.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day3/test3.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
-    <option name="y" value="31" />
+    <option name="x" value="5" />
+    <option name="y" value="23" />
     <option name="width" value="1087" />
     <option name="height" value="773" />
   </component>
@@ -81,6 +105,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,19 +122,19 @@
               <item name="chentest" type="b2602c69:ProjectViewProjectNode" />
               <item name="chentest" type="462c0819:PsiDirectoryNode" />
               <item name="gongcheng" type="462c0819:PsiDirectoryNode" />
-              <item name="datadeck" type="462c0819:PsiDirectoryNode" />
+              <item name="studay" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chentest" type="b2602c69:ProjectViewProjectNode" />
               <item name="chentest" type="462c0819:PsiDirectoryNode" />
               <item name="gongcheng" type="462c0819:PsiDirectoryNode" />
               <item name="studay" type="462c0819:PsiDirectoryNode" />
+              <item name="day3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -118,6 +143,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gongcheng/studay/day1-2" />
       <recent name="$PROJECT_DIR$/gongcheng/studay" />
       <recent name="$PROJECT_DIR$/gongcheng" />
     </key>
@@ -134,8 +160,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.login">
-    <configuration name="16_99" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests in test3.py">
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,11 +169,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case100" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gongcheng/studay/day3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case100/16_99.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gongcheng/studay/day3/test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +182,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="homework1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,11 +190,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gongcheng" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gongcheng/studay/day3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gongcheng/studay/homework1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gongcheng/studay/day3/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,76 +203,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="homework2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for test3.TestAdd.test_add" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gongcheng" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gongcheng/studay/day3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gongcheng/studay/homework2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test3.TestAdd.test_add&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="homework4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for test3.TestAdd.test_add2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gongcheng" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gongcheng/studay/day3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gongcheng/studay/homework4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test3.TestAdd.test_add2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests in test3.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gongcheng/datadeck" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gongcheng/studay/day3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gongcheng/datadeck/login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/gongcheng/studay/day3/test3.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.login" />
-        <item itemvalue="Python.homework4" />
-        <item itemvalue="Python.homework2" />
-        <item itemvalue="Python.16_99" />
-        <item itemvalue="Python.homework1" />
+        <item itemvalue="Python tests.Unittests in test3.py" />
+        <item itemvalue="Python tests.Unittests for test3.TestAdd.test_add2" />
+        <item itemvalue="Python tests.Unittests for test3.TestAdd.test_add" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -263,8 +268,25 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test3_TestAdd_test_add - 2019.02.25 at 12h 03m 11s.xml">
+      <configuration name="Unittests for test3.TestAdd.test_add" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test3_TestAdd_test_add2 - 2019.02.25 at 12h 18m 08s.xml">
+      <configuration name="Unittests for test3.TestAdd.test_add2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test3_py - 2019.02.25 at 12h 18m 41s.xml">
+      <configuration name="Unittests in test3.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test3_TestAdd_test_add2 - 2019.02.25 at 12h 18m 49s.xml">
+      <configuration name="Unittests for test3.TestAdd.test_add2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test3_py - 2019.02.25 at 12h 18m 51s.xml">
+      <configuration name="Unittests in test3.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="31" width="1087" height="773" extended-state="0" />
+    <frame x="5" y="23" width="1087" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18480301" />
@@ -272,7 +294,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32892805" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39353892" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39941263" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,14 +346,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongcheng/studay/test.html">
+    <entry file="file://$PROJECT_DIR$/gongcheng/studay/day1-2/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongcheng/studay/test3.py">
+    <entry file="file://$PROJECT_DIR$/gongcheng/studay/day1-2/test3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
@@ -341,14 +363,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongcheng/studay/riji.txt">
+    <entry file="file://$PROJECT_DIR$/gongcheng/studay/day1-2/riji.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongcheng/studay/test1.py">
+    <entry file="file://$PROJECT_DIR$/gongcheng/studay/day1-2/test1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
@@ -401,21 +423,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongcheng/studay/homework2.py">
+    <entry file="file://$PROJECT_DIR$/gongcheng/studay/day1-2/homework2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongcheng/studay/homework1.py">
+    <entry file="file://$PROJECT_DIR$/gongcheng/studay/day1-2/homework1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongcheng/studay/homework3.py">
+    <entry file="file://$PROJECT_DIR$/gongcheng/studay/day1-2/homework3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="9" />
@@ -425,7 +447,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongcheng/studay/test2.py">
+    <entry file="file://$PROJECT_DIR$/gongcheng/studay/day1-2/test2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="35" />
@@ -435,7 +457,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongcheng/studay/homework4.py">
+    <entry file="file://$PROJECT_DIR$/gongcheng/studay/day1-2/homework4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="28" />
@@ -465,11 +487,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gongcheng/datadeck/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding>
-            <element signature="e#26#56#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="510">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongcheng/studay/day3/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongcheng/studay/day3/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongcheng/studay/day3/test3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>
