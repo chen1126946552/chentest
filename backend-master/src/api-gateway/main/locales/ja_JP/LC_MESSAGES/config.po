@@ -1,0 +1,261 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2019-03-15 14:00+0800\n"
+"PO-Revision-Date: 2019-03-15 14:00+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Account"
+msgstr "アカウント"
+
+msgid "Please select your account"
+msgstr "アカウントを選択してください"
+
+msgid "World Map"
+msgstr "世界地図"
+
+msgid "Country"
+msgstr "国"
+
+msgid "City"
+msgstr "地域"
+
+msgid "SUM"
+msgstr "SUM"
+
+msgid "AVERAGE"
+msgstr "AVERAGE"
+
+msgid "MIN"
+msgstr "MIN"
+
+msgid "MAX"
+msgstr "MAX"
+
+msgid "STDEV"
+msgstr "STDEV"
+
+msgid "VAR"
+msgstr "VAR"
+
+msgid "COUNTA"
+msgstr "COUNTA"
+
+msgid "DCOUNT"
+msgstr "D_COUNT"
+
+msgid "Include"
+msgstr "含む"
+
+msgid "Does not include"
+msgstr "含まない"
+
+msgid "Exclude"
+msgstr "含まない"
+
+msgid "Begin with"
+msgstr "次で始まる"
+
+msgid "Does not begin with"
+msgstr "次で始まらない"
+
+msgid "End with"
+msgstr "次で終わる"
+
+msgid "Does not end with"
+msgstr "次で終わらない"
+
+msgid "Exactly match"
+msgstr "完全一致する"
+
+msgid "Does not exactly match"
+msgstr "完全一致しない"
+
+msgid "Contains"
+msgstr "含む"
+
+msgid "Does not contain"
+msgstr "含まない"
+
+msgid "Matches RegEx"
+msgstr "正規表現に一致"
+
+msgid "Does not match RegEx"
+msgstr "正規表現に一致しない"
+
+msgid "Is blank"
+msgstr "空白"
+
+msgid "Is not blank"
+msgstr "空白ではない"
+
+msgid "Equal to"
+msgstr "指定の値に等しい (=)"
+
+msgid "On"
+msgstr "指定の値に等しい"
+
+msgid "Not equal to"
+msgstr "指定の値に等しくない (≠)"
+
+msgid "Is not on"
+msgstr "指定の値に等しくない"
+
+msgid "Less than"
+msgstr "指定の値より小さい (<)"
+
+msgid "Less than or equal to"
+msgstr "指定の値以下 (≤)"
+
+msgid "On or before"
+msgstr "指定の値までに"
+
+msgid "Greater than"
+msgstr "指定の値より大きい (>)"
+
+msgid "Greater than or equal to"
+msgstr "指定の値以上 (≥)"
+
+msgid "On or after"
+msgstr "指定の値以降"
+
+msgid "Select"
+msgstr "選択"
+
+msgid "Advanced"
+msgstr "条件"
+
+msgid "Between"
+msgstr "次の値の間"
+
+msgid "Year"
+msgstr "年"
+
+msgid "Quarter"
+msgstr "四半期"
+
+msgid "Month"
+msgstr "月"
+
+msgid "Week"
+msgstr "週"
+
+msgid "Day"
+msgstr "日"
+
+msgid "Hour"
+msgstr "時間"
+
+msgid "Minute"
+msgstr "分"
+
+msgid "Seconds"
+msgstr "秒"
+
+msgid "Table"
+msgstr "図表"
+
+msgid "Column"
+msgstr "縦棒グラフ"
+
+msgid "Bar"
+msgstr "横棒グラフ"
+
+msgid "Stacked Column"
+msgstr "積み上げ縦棒グラフ"
+
+msgid "Stacked Bar"
+msgstr "積み上げ横棒グラフ"
+
+msgid "Line"
+msgstr "折れ線グラフ"
+
+msgid "Area"
+msgstr "面グラフ"
+
+msgid "Grouped Column"
+msgstr "2軸グラフ"
+
+msgid "Pie"
+msgstr "円グラフ"
+
+msgid "Single Value"
+msgstr "KPI数字表記"
+
+msgid "Progress Bar"
+msgstr "進捗グラフ"
+
+msgid "Map"
+msgstr "地図"
+
+msgid "Funnel"
+msgstr "ファネル"
+
+msgid "Bubble"
+msgstr "バブルチャート"
+
+msgid "All Time"
+msgstr "全期間"
+
+msgid "Current"
+msgstr "現在"
+
+msgid "Today"
+msgstr "今日"
+
+msgid "This Week"
+msgstr "今週"
+
+msgid "This Month"
+msgstr "今月"
+
+msgid "This Year"
+msgstr "今年"
+
+msgid "Past"
+msgstr "過去"
+
+msgid "Yesterday"
+msgstr "昨日"
+
+msgid "Last Week"
+msgstr "先週"
+
+msgid "Last Month"
+msgstr "先月"
+
+msgid "Last Year"
+msgstr "去年"
+
+msgid "Past ... days"
+msgstr "過去...日間"
+
+msgid "Future"
+msgstr "未来"
+
+msgid "Tomorrow"
+msgstr "明日"
+
+msgid "Next Week"
+msgstr "来週"
+
+msgid "Next Month"
+msgstr "来月"
+
+msgid "Next Year"
+msgstr "来年"
+
+msgid "Next ... days"
+msgstr "...日先まで"
+
+msgid "Custom"
+msgstr "カスタム期間"
+
+msgid "Custom date to today"
+msgstr "今日から...日前(先)"
+
+msgid "Custom date range"
+msgstr "期間指定"

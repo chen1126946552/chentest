@@ -1,0 +1,261 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2019-03-15 14:00+0800\n"
+"PO-Revision-Date: 2019-03-15 14:00+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Account"
+msgstr "Account"
+
+msgid "Please select your account"
+msgstr "Please select your account"
+
+msgid "World Map"
+msgstr "World Map"
+
+msgid "Country"
+msgstr "Country"
+
+msgid "City"
+msgstr "CITY"
+
+msgid "SUM"
+msgstr "SUM"
+
+msgid "AVERAGE"
+msgstr "AVERAGE"
+
+msgid "MIN"
+msgstr "MIN"
+
+msgid "MAX"
+msgstr "MAX"
+
+msgid "STDEV"
+msgstr "STDEV"
+
+msgid "VAR"
+msgstr "VAR"
+
+msgid "COUNTA"
+msgstr "COUNTA"
+
+msgid "DCOUNT"
+msgstr "D_COUNT"
+
+msgid "Include"
+msgstr "Include"
+
+msgid "Does not include"
+msgstr "Does not include"
+
+msgid "Exclude"
+msgstr "Exclude"
+
+msgid "Begin with"
+msgstr "Begin with"
+
+msgid "Does not begin with"
+msgstr "Does not begin with"
+
+msgid "End with"
+msgstr "End with"
+
+msgid "Does not end with"
+msgstr "Does not end with"
+
+msgid "Exactly match"
+msgstr "Exactly match"
+
+msgid "Does not exactly match"
+msgstr "Does not exactly match"
+
+msgid "Contains"
+msgstr "Contains"
+
+msgid "Does not contain"
+msgstr "Does not contain"
+
+msgid "Matches RegEx"
+msgstr "Matches RegEx"
+
+msgid "Does not match RegEx"
+msgstr "Does not match RegEx"
+
+msgid "Is blank"
+msgstr "Is blank"
+
+msgid "Is not blank"
+msgstr "Is not blank"
+
+msgid "Equal to"
+msgstr "Equal to"
+
+msgid "On"
+msgstr "On"
+
+msgid "Not equal to"
+msgstr "Not equal to"
+
+msgid "Is not on"
+msgstr "Is not on"
+
+msgid "Less than"
+msgstr "Less than"
+
+msgid "Less than or equal to"
+msgstr "Less than or equal to"
+
+msgid "On or before"
+msgstr "On or before"
+
+msgid "Greater than"
+msgstr "Greater than"
+
+msgid "Greater than or equal to"
+msgstr "Greater than or equal to"
+
+msgid "On or after"
+msgstr "On or after"
+
+msgid "Select"
+msgstr "Select"
+
+msgid "Advanced"
+msgstr "Advanced"
+
+msgid "Between"
+msgstr "Between"
+
+msgid "Year"
+msgstr "Year"
+
+msgid "Quarter"
+msgstr "Quarter"
+
+msgid "Month"
+msgstr "Month"
+
+msgid "Week"
+msgstr "Week"
+
+msgid "Day"
+msgstr "Day"
+
+msgid "Hour"
+msgstr "Hour"
+
+msgid "Minute"
+msgstr "Minute"
+
+msgid "Seconds"
+msgstr "Seconds"
+
+msgid "Table"
+msgstr "Table"
+
+msgid "Column"
+msgstr "Column"
+
+msgid "Bar"
+msgstr "Bar"
+
+msgid "Stacked Column"
+msgstr "Stacked Column"
+
+msgid "Stacked Bar"
+msgstr "Stacked Bar"
+
+msgid "Line"
+msgstr "Line"
+
+msgid "Area"
+msgstr "Area"
+
+msgid "Grouped Column"
+msgstr "Grouped Column"
+
+msgid "Pie"
+msgstr "Pie"
+
+msgid "Single Value"
+msgstr "Single Value"
+
+msgid "Progress Bar"
+msgstr "Progress Bar"
+
+msgid "Map"
+msgstr "Map"
+
+msgid "Funnel"
+msgstr "Funnel"
+
+msgid "Bubble"
+msgstr "Bubble"
+
+msgid "All Time"
+msgstr "All Time"
+
+msgid "Current"
+msgstr "Current"
+
+msgid "Today"
+msgstr "Today"
+
+msgid "This Week"
+msgstr "This Week"
+
+msgid "This Month"
+msgstr "This Month"
+
+msgid "This Year"
+msgstr "This Year"
+
+msgid "Past"
+msgstr "Past"
+
+msgid "Yesterday"
+msgstr "Yesterday"
+
+msgid "Last Week"
+msgstr "Last Week"
+
+msgid "Last Month"
+msgstr "Last Month"
+
+msgid "Last Year"
+msgstr "Last Year"
+
+msgid "Past ... days"
+msgstr "Past"
+
+msgid "Future"
+msgstr "Future"
+
+msgid "Tomorrow"
+msgstr "Tomorrow"
+
+msgid "Next Week"
+msgstr "Next Week"
+
+msgid "Next Month"
+msgstr "Next Month"
+
+msgid "Next Year"
+msgstr "Next Year"
+
+msgid "Next ... days"
+msgstr "...日先まで"
+
+msgid "Custom"
+msgstr "Custom"
+
+msgid "Custom date to today"
+msgstr "Custom date to today"
+
+msgid "Custom date range"
+msgstr "Custom date range"

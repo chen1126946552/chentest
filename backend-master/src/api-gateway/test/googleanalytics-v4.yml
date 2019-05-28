@@ -1,0 +1,58 @@
+general:
+  id: 1001
+  code: googleanalytics-v4
+  name: Google Analytics (API v4 Beta)
+  version: 0.9
+  schemaVersion: 0.9.0
+  author: yiming.cao@ptmind.com
+
+auth:
+  type: oauth
+
+hierarchy:
+  items:
+    - id: profile
+      name: Profile
+      matchLevels: '*'
+
+data:
+  dateRange:
+    supportDateRangeFieldSelection: false
+  supportPaging: true
+  supportSegment: true
+  provideRawData: false
+  filter:
+    stringOps:
+      - in_list
+      - not_in_list
+      - str_contain
+      - str_not_contain
+      - equal
+      - not_equal
+      - regex_match
+      - regex_not_match
+    numberOps:
+      - equal
+      - not_equal
+      - gt
+      - ge
+      - lt
+      - le
+    dateOps:
+      - equal
+      - not_equal
+      - ge
+      - le
+  segment:
+    scopes:
+      - id: sessions
+        name: Session
+      - id: users
+        name: User
+  geolocation:
+    countryField:
+      id: ga:country
+      name: Country
+    regionField:
+      id: ga:region
+      name: Region

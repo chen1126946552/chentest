@@ -1,0 +1,547 @@
+{
+    "success": true,
+    "message": null,
+    "stackTrace": null,
+    "data": {
+        "config": {
+            "basicInfo": {
+                "isCalculatedFieldSupportFilter": false,
+                "isContainSourceTable": false,
+                "isSupportI18n": true,
+                "isSupportCalculatedField": true,
+                "isSupportCorrelateField": false,
+                "isCalculatedFieldSupportFunction": false
+            },
+            "widgetEditor": {
+                "fields": {
+                    "getFieldsMethod": "Saas",
+                    "getCompoundMetricsIsUsedTableId": "false"
+                },
+                "graphs": [
+                    {
+                        "code": "table",
+                        "name": "表格"
+                    },
+                    {
+                        "code": "column",
+                        "name": "柱状图"
+                    },
+                    {
+                        "code": "bar",
+                        "name": "条形图"
+                    },
+                    {
+                        "name": "堆积柱状图",
+                        "code": "stackColumn"
+                    },
+                    {
+                        "code": "stackBar",
+                        "name": "堆积条形图"
+                    },
+                    {
+                        "code": "line",
+                        "name": "线图"
+                    },
+                    {
+                        "name": "面积图",
+                        "code": "area"
+                    },
+                    {
+                        "code": "doubleAxis",
+                        "name": "双轴图"
+                    },
+                    {
+                        "code": "pie",
+                        "name": "环形图"
+                    },
+                    {
+                        "code": "number",
+                        "name": "数值图"
+                    },
+                    {
+                        "name": "目标图",
+                        "code": "progressbar"
+                    },
+                    {
+                        "code": "map",
+                        "name": "地图"
+                    }
+                ],
+                "map": {
+                    "mapType": [
+                        {
+                            "code": "world",
+                            "name": "世界"
+                        },
+                        {
+                            "name": "国家",
+                            "code": "country"
+                        }
+                    ],
+                    "cityFields": [
+                        {
+                            "code": "ga:region",
+                            "id": "52",
+                            "name": "区域"
+                        }
+                    ],
+                    "countryFields": [
+                        {
+                            "name": "国家/地区",
+                            "id": "51",
+                            "code": "ga:country"
+                        }
+                    ]
+                },
+                "segment": {
+                    "operators": {
+                        "string": {
+                            "items": [
+                                {
+                                    "code": "equal",
+                                    "name": "完全匹配"
+                                },
+                                {
+                                    "code": "not_equal",
+                                    "name": "完全不匹配"
+                                },
+                                {
+                                    "name": "包含",
+                                    "code": "contain"
+                                },
+                                {
+                                    "code": "not_contain",
+                                    "name": "不包含"
+                                },
+                                {
+                                    "code": "regex_match",
+                                    "name": "与正则表达式匹配"
+                                },
+                                {
+                                    "code": "regex_not_match",
+                                    "name": "与正则表达式不匹配"
+                                }
+                            ],
+                            "default": {
+                                "name": "包含",
+                                "code": "contain"
+                            }
+                        },
+                        "number": {
+                            "items": [
+                                {
+                                    "code": "lt",
+                                    "name": "小于"
+                                },
+                                {
+                                    "code": "le",
+                                    "name": "小于等于"
+                                },
+                                {
+                                    "name": "大于等于",
+                                    "code": "ge"
+                                },
+                                {
+                                    "name": "大于",
+                                    "code": "gt"
+                                },
+                                {
+                                    "code": "not_equal",
+                                    "name": "不等于"
+                                },
+                                {
+                                    "code": "equal",
+                                    "name": "等于"
+                                }
+                            ],
+                            "default": {
+                                "name": "小于",
+                                "code": "lt"
+                            }
+                        }
+                    },
+                    "operations": {
+                        "items": [
+                            {
+                                "name": "包含",
+                                "code": "include"
+                            },
+                            {
+                                "name": "不包含",
+                                "code": "exclude"
+                            }
+                        ],
+                        "default": {
+                            "name": "包含",
+                            "code": "include"
+                        }
+                    },
+                    "scopes": {
+                        "items": [
+                            {
+                                "code": "users",
+                                "name": "用户"
+                            },
+                            {
+                                "name": "会话",
+                                "code": "sessions"
+                            }
+                        ],
+                        "default": {
+                            "name": "会话",
+                            "code": "sessions"
+                        }
+                    }
+                },
+                "time": {
+                    "items": [
+                        {
+                            "name": "现在",
+                            "code": "category"
+                        },
+                        {
+                            "name": "今天",
+                            "code": "today"
+                        },
+                        {
+                            "name": "本周",
+                            "code": "this_week"
+                        },
+                        {
+                            "name": "本月",
+                            "code": "this_month"
+                        },
+                        {
+                            "code": "this_year",
+                            "name": "今年"
+                        },
+                        {
+                            "name": "",
+                            "code": "separator"
+                        },
+                        {
+                            "code": "category",
+                            "name": "过去"
+                        },
+                        {
+                            "name": "昨天",
+                            "code": "yesterday"
+                        },
+                        {
+                            "name": "上周",
+                            "code": "last_week"
+                        },
+                        {
+                            "code": "last_month",
+                            "name": "上月"
+                        },
+                        {
+                            "name": "去年",
+                            "code": "last_year"
+                        },
+                        {
+                            "name": "过去...天",
+                            "configs": {
+                                "max": 999,
+                                "isIncludeToday": false,
+                                "min": 1
+                            },
+                            "type": "number",
+                            "code": "past"
+                        },
+                        {
+                            "code": "separator",
+                            "name": ""
+                        },
+                        {
+                            "code": "category",
+                            "name": "将来"
+                        },
+                        {
+                            "code": "tomorrow",
+                            "name": "明天"
+                        },
+                        {
+                            "code": "next_week",
+                            "name": "下周"
+                        },
+                        {
+                            "code": "next_month",
+                            "name": "下月"
+                        },
+                        {
+                            "code": "next_year",
+                            "name": "明年"
+                        },
+                        {
+                            "code": "next",
+                            "type": "number",
+                            "name": "未来...天",
+                            "configs": {
+                                "min": 1,
+                                "isIncludeToday": false,
+                                "max": 999
+                            }
+                        },
+                        {
+                            "name": "",
+                            "code": "separator"
+                        },
+                        {
+                            "name": "自定义",
+                            "code": "category"
+                        },
+                        {
+                            "name": "自定义日期到今天",
+                            "type": "single",
+                            "code": "custom_today"
+                        },
+                        {
+                            "code": "custom",
+                            "type": "range",
+                            "name": "自定义时间范围"
+                        }
+                    ],
+                    "isSupportSelectDateFields": false,
+                    "default": "past"
+                },
+                "filter": {
+                    "date": {
+                        "options": [
+                            {
+                                "name": "选择",
+                                "items": [
+                                    {
+                                        "cType": "multipleList",
+                                        "code": "in",
+                                        "command": "dimensionValues",
+                                        "name": "包含"
+                                    },
+                                    {
+                                        "cType": "multipleList",
+                                        "code": "not_in",
+                                        "name": "不包含",
+                                        "command": "dimensionValues"
+                                    }
+                                ],
+                                "code": "select"
+                            },
+                            {
+                                "name": "条件",
+                                "code": "advance",
+                                "items": [
+                                    {
+                                        "code": "equal",
+                                        "name": "完全匹配",
+                                        "cType": "tagInput"
+                                    },
+                                    {
+                                        "code": "not_equal",
+                                        "cType": "tagInput",
+                                        "name": "完全不匹配"
+                                    },
+                                    {
+                                        "cType": "tagInput",
+                                        "code": "contain",
+                                        "name": "包含"
+                                    },
+                                    {
+                                        "name": "不包含",
+                                        "code": "not_contain",
+                                        "cType": "tagInput"
+                                    },
+                                    {
+                                        "name": "与正则表达式匹配",
+                                        "cType": "regex",
+                                        "code": "regex_match"
+                                    },
+                                    {
+                                        "cType": "regex",
+                                        "name": "与正则表达式不匹配",
+                                        "code": "regex_not_match"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "string": {
+                        "options": [
+                            {
+                                "name": "选择",
+                                "code": "select",
+                                "items": [
+                                    {
+                                        "command": "dimensionValues",
+                                        "name": "包含",
+                                        "code": "in",
+                                        "cType": "multipleList"
+                                    },
+                                    {
+                                        "command": "dimensionValues",
+                                        "code": "not_in",
+                                        "cType": "multipleList",
+                                        "name": "不包含"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "条件",
+                                "items": [
+                                    {
+                                        "name": "完全匹配",
+                                        "cType": "tagInput",
+                                        "code": "equal"
+                                    },
+                                    {
+                                        "code": "not_equal",
+                                        "name": "完全不匹配",
+                                        "cType": "tagInput"
+                                    },
+                                    {
+                                        "name": "包含",
+                                        "code": "contain",
+                                        "cType": "tagInput"
+                                    },
+                                    {
+                                        "name": "不包含",
+                                        "cType": "tagInput",
+                                        "code": "not_contain"
+                                    },
+                                    {
+                                        "cType": "regex",
+                                        "code": "regex_match",
+                                        "name": "与正则表达式匹配"
+                                    },
+                                    {
+                                        "code": "regex_not_match",
+                                        "cType": "regex",
+                                        "name": "与正则表达式不匹配"
+                                    }
+                                ],
+                                "default": "contain",
+                                "code": "advance"
+                            }
+                        ]
+                    },
+                    "number": {
+                        "options": [
+                            {
+                                "name": "条件",
+                                "code": "advance",
+                                "items": [
+                                    {
+                                        "cType": "inputNumber",
+                                        "code": "gt",
+                                        "name": "大于"
+                                    },
+                                    {
+                                        "name": "大于等于",
+                                        "cType": "inputNumber",
+                                        "code": "ge"
+                                    },
+                                    {
+                                        "code": "lt",
+                                        "name": "小于",
+                                        "cType": "inputNumber"
+                                    },
+                                    {
+                                        "cType": "inputNumber",
+                                        "name": "小于等于",
+                                        "code": "le"
+                                    },
+                                    {
+                                        "cType": "inputNumber",
+                                        "name": "等于",
+                                        "code": "equal"
+                                    },
+                                    {
+                                        "code": "not_equal",
+                                        "name": "不等于",
+                                        "cType": "inputNumber"
+                                    },
+                                    {
+                                        "cType": "inputNumber",
+                                        "code": "between",
+                                        "options": {
+                                            "between": true
+                                        },
+                                        "name": "区间"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "commands": [
+                        {
+                            "request": {
+                                "params": [
+                                    "dsConnectionId",
+                                    "time",
+                                    "field"
+                                ]
+                            },
+                            "response": {
+                                "type": "list"
+                            },
+                            "id": "dimensionValues",
+                            "provider": "googleanalytics-v4"
+                        }
+                    ]
+                }
+            },
+            "datasource": {
+                "commands": [
+                    {
+                        "response": {
+                            "type": "tree"
+                        },
+                        "request": {
+                            "params": [
+                                "account.id",
+                                "account.name"
+                            ]
+                        },
+                        "id": "profile",
+                        "provider": "googleanalytics-v4"
+                    }
+                ],
+                "view": {
+                    "steps": [
+                        {
+                            "componentType": "list",
+                            "placeholder": "请选择账户",
+                            "bindTo": "account",
+                            "name": "account",
+                            "text": "账户",
+                            "connect": {
+                                "type": "oAuth"
+                            },
+                            "output": [
+                                "id",
+                                "name"
+                            ],
+                            "type": "account",
+                            "description": "账户"
+                        },
+                        {
+                            "componentType": "tree",
+                            "type": "profile",
+                            "name": "profile",
+                            "command": "profile",
+                            "description": "档案",
+                            "text": "档案",
+                            "bindTo": "profile",
+                            "output": [
+                                "id",
+                                "name"
+                            ],
+                            "placeholder": "请选择档案"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "errorCode": null,
+    "params": null
+}

@@ -1,0 +1,267 @@
+stages:
+  - build
+  - push
+  - upgrade
+
+before_script:
+  - $REGLOGIN
+  - $GITREGLOGIN
+  - tag=`git rev-parse --short HEAD`
+  - echo ${CI_JOB_ID} > ./infor && echo ${CI_COMMIT_REF_NAME} >> ./infor && echo ${CI_COMMIT_SHA} >> ./infor && echo ${CI_COMMIT_TITLE} >> ./infor && echo ${CI_RUNNER_TAGS} >> ./infor
+
+variables:
+  GIT_IMAGE: "registry.gitlab.com/ptminddev/reg/ddvnext/${CI_PROJECT_NAME}-${SERVICE_NAME}-${CI_COMMIT_REF_NAME}:${CI_COMMIT_SHA}"
+  PT_REG_BASE: "reg.ptone.jp"
+  PT_IMAGE: "${PT_REG_BASE}/ddvnext/${CI_PROJECT_NAME}/${CI_COMMIT_REF_NAME}/${SERVICE_NAME}:latest"
+  SERVICE_BUILD_DOCKER: "/bin/bash ./builddocker.sh ${SERVICE_NAME}"
+  SERVICE_RUN_TEST: "docker run -w /app --rm ${SERVICE_NAME} /bin/bash -c \"pytest --disable-pytest-warnings --log-cli-level=INFO --cov=. /test\""
+  SERVICE_RUN_LINT: "docker run -w /app --rm ${SERVICE_NAME} /bin/bash -c \"find . -iname '*.py' | grep -iv migrations | xargs pylint --rcfile=.pylintrc\""
+  DOCKER_PUSH_GIT: "echo 'Pushing to gitlab docker repository is skipped for now'"
+  DOCKER_PUSH_PT: "docker tag ${SERVICE_NAME} ${PT_IMAGE} && docker push ${PT_IMAGE}"
+  RANCHER_UPGRADE_STACK: "${RANCHER_JPDDDOGFOOD} export dd-dogfood && cd dd-dogfood"
+  RANCHER_UPGRADE_COMPOSE: "${RANCHER_COMPOSE_JPDDDOGFOOD} up -c -d --force-upgrade  ${RANCHER_SERVICE_NAME}"
+  RANCHER_UPGRADE_STACK_STAGING: "${RANCHER_JPDDSTAGING} export dd-staging && cd dd-staging"
+  RANCHER_UPGRADE_COMPOSE_STAGING: "${RANCHER_COMPOSE_JPDDSTAGING} up -c -d --force-upgrade  ${RANCHER_SERVICE_NAME}"
+
+build:docker_base_python_service:
+  stage: build
+  tags:
+    - python3
+  script:
+    - cd src/docker-base/python-service
+    - /bin/bash ./builddocker.sh ${CI_COMMIT_REF_NAME}
+    - docker push ${PT_REG_BASE}/base/uwsgi-nginx-python3.7:${CI_COMMIT_REF_NAME}
+  only:
+    refs:
+      - develop
+      - staging
+      - master
+    changes:
+      - src/docker-base/python-service/**/*
+      - src/requirements_shared.txt
+
+build:common:
+  stage: build
+  tags:
+    - python3
+  script:
+    - cp src/requirements_shared.txt src/common/requirements.txt
+    - cp src/.pylintrc src/common/
+    - cd src/common
+    - docker build --pull -t datadeck-common .
+    - docker run -w / --rm datadeck-common /bin/bash -c "pylint --rcfile=/common/.pylintrc /common"
+  only:
+    refs:
+      - develop
+      - staging
+      - master
+      - merge_requests
+    changes:
+      - src/common/**/*
+
+build:api_gateway:
+  variables:
+    SERVICE_NAME: api-gateway
+  stage: build
+  tags:
+    - python3
+  script:
+    - cd src
+    - eval ${SERVICE_BUILD_DOCKER}
+    - eval ${SERVICE_RUN_LINT}
+    - eval ${SERVICE_RUN_TEST}
+  only:
+    refs:
+      - develop
+      - staging
+      - master
+      - merge_requests
+    changes:
+      - src/api-gateway/**/*
+
+push:api_gateway:
+  variables:
+    SERVICE_NAME: api-gateway
+  stage: push
+  tags:
+    - python3
+  script:
+    - cd src
+    - eval ${SERVICE_BUILD_DOCKER}
+    - eval ${DOCKER_PUSH_GIT}
+    - eval ${DOCKER_PUSH_PT}
+  only:
+    refs:
+      - develop
+      - staging
+      - master
+    changes:
+      - src/api-gateway/**/*
+
+upgrade:api_gateway:
+  variables:
+    RANCHER_SERVICE_NAME: datadeck-gateway
+  tags:
+    - python3
+  stage: upgrade
+  script:
+    - eval ${RANCHER_UPGRADE_STACK}
+    - eval ${RANCHER_UPGRADE_COMPOSE}
+  only:
+    refs:
+      - develop
+    changes:
+      - src/api-gateway/**/*
+
+upgrade:api_gateway:staging:
+  variables:
+    RANCHER_SERVICE_NAME: datadeck-gateway
+  tags:
+    - python3
+  stage: upgrade
+  script:
+    - eval ${RANCHER_UPGRADE_STACK_STAGING}
+    - eval ${RANCHER_UPGRADE_COMPOSE_STAGING}
+  only:
+    refs:
+      - staging
+    changes:
+      - src/api-gateway/**/*
+
+build:business:
+  variables:
+    SERVICE_NAME: business
+  stage: build
+  tags:
+    - python3
+  script:
+    - cd src
+    - eval ${SERVICE_BUILD_DOCKER}
+    - eval ${SERVICE_RUN_LINT}
+    - eval ${SERVICE_RUN_TEST}
+  only:
+    refs:
+      - develop
+      - staging
+      - master
+      - merge_requests
+    changes:
+      - src/business/**/*
+
+push:business:
+  variables:
+    SERVICE_NAME: business
+  stage: push
+  tags:
+    - python3
+  script:
+    - cd src
+    - eval ${SERVICE_BUILD_DOCKER}
+    - eval ${DOCKER_PUSH_GIT}
+    - eval ${DOCKER_PUSH_PT}
+  only:
+    refs:
+      - develop
+      - staging
+      - master
+    changes:
+      - src/business/**/*
+
+upgrade:business:
+  variables:
+    RANCHER_SERVICE_NAME: datadeck-business
+  tags:
+    - python3
+  stage: upgrade
+  script:
+    - eval ${RANCHER_UPGRADE_STACK}
+    - eval ${RANCHER_UPGRADE_COMPOSE}
+  only:
+    refs:
+      - develop
+    changes:
+      - src/business/**/*
+
+upgrade:business:staging:
+  variables:
+    RANCHER_SERVICE_NAME: datadeck-business
+  tags:
+    - python3
+  stage: upgrade
+  script:
+    - eval ${RANCHER_UPGRADE_STACK_STAGING}
+    - eval ${RANCHER_UPGRADE_COMPOSE_STAGING}
+  only:
+    refs:
+      - staging
+    changes:
+      - src/business/**/*
+
+build:data_manager:
+  variables:
+    SERVICE_NAME: data-manager
+  stage: build
+  tags:
+    - python3
+  script:
+    - cd src
+    - eval ${SERVICE_BUILD_DOCKER}
+    - eval ${SERVICE_RUN_LINT}
+    - eval ${SERVICE_RUN_TEST}
+  only:
+    refs:
+      - develop
+      - staging
+      - master
+      - merge_requests
+    changes:
+      - src/data-manager/**/*
+
+push:data_manager:
+  variables:
+    SERVICE_NAME: data-manager
+  stage: push
+  tags:
+    - python3
+  script:
+    - cd src
+    - eval ${SERVICE_BUILD_DOCKER}
+    - eval ${DOCKER_PUSH_GIT}
+    - eval ${DOCKER_PUSH_PT}
+  only:
+    refs:
+      - develop
+      - staging
+      - master
+    changes:
+      - src/data-manager/**/*
+
+upgrade:data_manager:
+  variables:
+    RANCHER_SERVICE_NAME: datadeck-data-manager
+  tags:
+    - python3
+  stage: upgrade
+  script:
+    - eval ${RANCHER_UPGRADE_STACK}
+    - eval ${RANCHER_UPGRADE_COMPOSE}
+  only:
+    refs:
+      - develop
+    changes:
+      - src/data-manager/**/*
+
+upgrade:data_manager:staging:
+  variables:
+    RANCHER_SERVICE_NAME: datadeck-data-manager
+  tags:
+    - python3
+  stage: upgrade
+  script:
+    - eval ${RANCHER_UPGRADE_STACK_STAGING}
+    - eval ${RANCHER_UPGRADE_COMPOSE_STAGING}
+  only:
+    refs:
+      - staging
+    changes:
+      - src/data-manager/**/*

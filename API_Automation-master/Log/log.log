@@ -1,0 +1,4 @@
+[DEBUG 2018-08-31 22:11:43]cookies: {'PPY_AFFSESSID1': 's%3AYC2YCWP7JzDtDheX3QBkhlPA.vCFjK9XxSVlq5ZmAZEJyGW15bLG47i31aKG%2FSwBuORE'}
+[INFO 2019-05-05 11:58:35]初始化配置文件, path=/Users/chenchen/Desktop/API_Automation-master/Conf/config.ini
+[INFO 2019-05-05 11:58:35]执行用例集为：--allure_features=Home,Personal
+[ERROR 2019-05-05 11:58:36]邮件发送失败，请检查邮件配置

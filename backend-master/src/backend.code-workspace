@@ -1,0 +1,31 @@
+{
+	"folders": [
+        {
+            "path": "common"
+        },
+        {
+            "path": "data-manager"
+        },
+        {
+            "path": "business"
+        },
+        {
+            "path": "api-gateway"
+        }
+    ],
+    "settings": {
+        "python.unitTest.unittestEnabled": false,
+        "python.unitTest.nosetestsEnabled": false,
+        "python.unitTest.pyTestEnabled": true,
+        "python.unitTest.pyTestArgs": [
+            "--disable-pytest-warnings",
+            "--log-cli-level=DEBUG",
+            "test"
+        ],
+		"python.linting.pylintArgs": [
+		    "--rcfile",
+		    "${workspaceFolder}/.pylintrc"
+        ],
+        "pythonTestExplorer.testFramework": "pytest"
+    }
+}

@@ -1,0 +1,507 @@
+{
+    "success": true,
+    "message": null,
+    "stackTrace": null,
+    "data": {
+        "config": {
+            "basicInfo": {
+                "cache": [
+                    {
+                        "expiredTime": 86400,
+                        "isOpen": false,
+                        "type": "command"
+                    }
+                ],
+                "isCalculatedFieldSupportFilter": true,
+                "isCalculatedFieldSupportFunction": true,
+                "isContainSourceTable": true,
+                "isSupportCalculatedField": true,
+                "isSupportCorrelateField": true,
+                "isSupportI18n": false
+            },
+            "datasource": {
+                "commands": [
+                    {
+                        "id": "table",
+                        "provider": "redshift-vnext",
+                        "request": {
+                            "params": [
+                                "account.id",
+                                "account.name"
+                            ]
+                        },
+                        "response": {
+                            "type": "tree"
+                        }
+                    }
+                ],
+                "view": {
+                    "steps": [
+                        {
+                            "bindTo": "account",
+                            "componentType": "list",
+                            "connect": {
+                                "type": "local"
+                            },
+                            "description": "Redshift",
+                            "isWatchChange": true,
+                            "name": "account",
+                            "output": [
+                                "id",
+                                "name"
+                            ],
+                            "placeholder": "Account",
+                            "text": "Account",
+                            "type": "account"
+                        },
+                        {
+                            "bindTo": "profile",
+                            "command": "table",
+                            "componentType": "tree",
+                            "connect": {
+                                "type": "local"
+                            },
+                            "description": "Table",
+                            "isWatchChange": true,
+                            "name": "profile",
+                            "output": [
+                                "id",
+                                "name"
+                            ],
+                            "placeholder": "Table",
+                            "text": "Table",
+                            "type": "profile"
+                        }
+                    ]
+                }
+            },
+            "widgetEditor": {
+                "calculateType": [
+                    {
+                        "code": "sum",
+                        "name": "SUM",
+                        "tip": "Sum"
+                    },
+                    {
+                        "code": "average",
+                        "name": "AVG",
+                        "tip": "Average"
+                    },
+                    {
+                        "code": "max",
+                        "name": "MAX",
+                        "tip": "Max"
+                    },
+                    {
+                        "code": "min",
+                        "name": "MIN",
+                        "tip": "Min"
+                    },
+                    {
+                        "code": "counta",
+                        "name": "COUNTA",
+                        "tip": "COUNTA"
+                    },
+                    {
+                        "code": "countunique",
+                        "name": "DCOUNT",
+                        "tip": "Distinct Count"
+                    },
+                    {
+                        "code": "stdev",
+                        "name": "STDEV",
+                        "tip": "STDEV"
+                    },
+                    {
+                        "code": "var",
+                        "name": "VAR",
+                        "tip": "VARIANCE"
+                    }
+                ],
+                "fields": {
+                    "getCompoundMetricsIsUsedTableId": "true",
+                    "getFieldsMethod": "Table",
+                    "isValidHasDateField": "true"
+                },
+                "filter": {
+                    "commands": [
+                        {
+                            "id": "dimensionValues",
+                            "provider": "redshift-vnext",
+                            "request": {
+                                "params": [
+                                    "dsConnectionId",
+                                    "time",
+                                    "field"
+                                ]
+                            },
+                            "response": {
+                                "type": "list"
+                            }
+                        }
+                    ],
+                    "date": {
+                        "options": [
+                            {
+                                "code": "advance",
+                                "items": [
+                                    {
+                                        "cType": "date",
+                                        "code": "ge",
+                                        "name": "GT"
+                                    },
+                                    {
+                                        "cType": "date",
+                                        "code": "le",
+                                        "name": "LE"
+                                    },
+                                    {
+                                        "cType": "date",
+                                        "code": "equal",
+                                        "name": "EQUAL"
+                                    },
+                                    {
+                                        "cType": "date",
+                                        "code": "not_equal",
+                                        "name": "NOT EQUAL"
+                                    },
+                                    {
+                                        "cType": "date",
+                                        "code": "between",
+                                        "name": "BETWEEN",
+                                        "options": {
+                                            "between": true
+                                        }
+                                    }
+                                ],
+                                "name": "Advanced"
+                            }
+                        ]
+                    },
+                    "number": {
+                        "options": [
+                            {
+                                "code": "advance",
+                                "items": [
+                                    {
+                                        "cType": "inputNumber",
+                                        "code": "gt",
+                                        "name": "GT"
+                                    },
+                                    {
+                                        "cType": "inputNumber",
+                                        "code": "ge",
+                                        "name": "GE"
+                                    },
+                                    {
+                                        "cType": "inputNumber",
+                                        "code": "lt",
+                                        "name": "LT"
+                                    },
+                                    {
+                                        "cType": "inputNumber",
+                                        "code": "le",
+                                        "name": "LE"
+                                    },
+                                    {
+                                        "cType": "inputNumber",
+                                        "code": "equal",
+                                        "name": "EQUAL"
+                                    },
+                                    {
+                                        "cType": "inputNumber",
+                                        "code": "not_equal",
+                                        "name": "NOT_EQUAL"
+                                    },
+                                    {
+                                        "cType": "inputNumber",
+                                        "code": "between",
+                                        "name": "BETWEEN",
+                                        "options": {
+                                            "between": true
+                                        }
+                                    }
+                                ],
+                                "name": "Advanced"
+                            }
+                        ]
+                    },
+                    "string": {
+                        "options": [
+                            {
+                                "code": "select",
+                                "items": [
+                                    {
+                                        "cType": "multipleList",
+                                        "code": "in",
+                                        "command": "dimensionValues",
+                                        "name": "IN"
+                                    },
+                                    {
+                                        "cType": "multipleList",
+                                        "code": "not_in",
+                                        "command": "dimensionValues",
+                                        "name": "NOT IN"
+                                    }
+                                ],
+                                "name": "Select"
+                            },
+                            {
+                                "code": "advance",
+                                "items": [
+                                    {
+                                        "cType": "tagInput",
+                                        "code": "in",
+                                        "name": "EQUAL"
+                                    },
+                                    {
+                                        "cType": "tagInput",
+                                        "code": "not_in",
+                                        "name": "NOT EQUAL"
+                                    },
+                                    {
+                                        "cType": "tagInput",
+                                        "code": "contain",
+                                        "name": "CONTAIN"
+                                    },
+                                    {
+                                        "cType": "tagInput",
+                                        "code": "not_contain",
+                                        "name": "NOT CONTAIN"
+                                    },
+                                    {
+                                        "cType": "tagInput",
+                                        "code": "start",
+                                        "name": "START WITH"
+                                    },
+                                    {
+                                        "cType": "tagInput",
+                                        "code": "not_start",
+                                        "name": "NOT START WITH"
+                                    },
+                                    {
+                                        "cType": "tagInput",
+                                        "code": "end",
+                                        "name": "END WITH"
+                                    },
+                                    {
+                                        "cType": "tagInput",
+                                        "code": "not_end",
+                                        "name": "NOT END WITH"
+                                    },
+                                    {
+                                        "cType": "",
+                                        "code": "is_null",
+                                        "name": "IS NULL"
+                                    },
+                                    {
+                                        "cType": "",
+                                        "code": "is_not_null",
+                                        "name": "IS NOT NULL"
+                                    }
+                                ],
+                                "name": "Advanced"
+                            }
+                        ]
+                    }
+                },
+                "graphs": [
+                    {
+                        "code": "table",
+                        "name": "${REDSHIFT.CONFIG.WIDGETEDITOR.GRAPHS.TABLE}"
+                    },
+                    {
+                        "code": "column",
+                        "name": "${REDSHIFT.CONFIG.WIDGETEDITOR.GRAPHS.COLUMN}"
+                    },
+                    {
+                        "code": "bar",
+                        "name": "${REDSHIFT.CONFIG.WIDGETEDITOR.GRAPHS.BAR}"
+                    },
+                    {
+                        "code": "stackColumn",
+                        "name": "${REDSHIFT.CONFIG.WIDGETEDITOR.GRAPHS.STACKCOLUMN}"
+                    },
+                    {
+                        "code": "stackBar",
+                        "name": "${REDSHIFT.CONFIG.WIDGETEDITOR.GRAPHS.STACKBAR}"
+                    },
+                    {
+                        "code": "line",
+                        "name": "${REDSHIFT.CONFIG.WIDGETEDITOR.GRAPHS.LINE}"
+                    },
+                    {
+                        "code": "area",
+                        "name": "${REDSHIFT.CONFIG.WIDGETEDITOR.GRAPHS.AREA}"
+                    },
+                    {
+                        "code": "doubleAxis",
+                        "name": "${REDSHIFT.CONFIG.WIDGETEDITOR.GRAPHS.DOUBLEAXIS}"
+                    },
+                    {
+                        "code": "pie",
+                        "name": "${REDSHIFT.CONFIG.WIDGETEDITOR.GRAPHS.PIE}"
+                    },
+                    {
+                        "code": "number",
+                        "name": "${REDSHIFT.CONFIG.WIDGETEDITOR.GRAPHS.NUMBER}"
+                    },
+                    {
+                        "code": "progressbar",
+                        "name": "${REDSHIFT.CONFIG.WIDGETEDITOR.GRAPHS.PROGRESSBAR}"
+                    }
+                ],
+                "time": {
+                    "default": "all_time",
+                    "isSupportSelectDateFields": true,
+                    "items": [
+                        {
+                            "code": "all_time",
+                            "name": "All Time"
+                        },
+                        {
+                            "code": "category",
+                            "name": "Current"
+                        },
+                        {
+                            "code": "today",
+                            "name": "Today"
+                        },
+                        {
+                            "code": "this_week",
+                            "name": "This Week"
+                        },
+                        {
+                            "code": "this_month",
+                            "name": "This Month"
+                        },
+                        {
+                            "code": "this_year",
+                            "name": "This Year"
+                        },
+                        {
+                            "code": "separator",
+                            "name": ""
+                        },
+                        {
+                            "code": "category",
+                            "name": "Past"
+                        },
+                        {
+                            "code": "yesterday",
+                            "name": "Yesterday"
+                        },
+                        {
+                            "code": "last_week",
+                            "name": "Last Week"
+                        },
+                        {
+                            "code": "last_month",
+                            "name": "Last Month"
+                        },
+                        {
+                            "code": "last_year",
+                            "name": "Last Year"
+                        },
+                        {
+                            "code": "past",
+                            "configs": {
+                                "isIncludeToday": false,
+                                "max": 999,
+                                "min": 1
+                            },
+                            "name": "Past",
+                            "type": "number"
+                        },
+                        {
+                            "code": "separator",
+                            "name": ""
+                        },
+                        {
+                            "code": "category",
+                            "name": "Future"
+                        },
+                        {
+                            "code": "tomorrow",
+                            "name": "Tomorrow"
+                        },
+                        {
+                            "code": "next_week",
+                            "name": "Next Week"
+                        },
+                        {
+                            "code": "next_month",
+                            "name": "Next Month"
+                        },
+                        {
+                            "code": "next_year",
+                            "name": "Next Year"
+                        },
+                        {
+                            "code": "next",
+                            "configs": {
+                                "isIncludeToday": false,
+                                "max": 999,
+                                "min": 1
+                            },
+                            "name": "Next ... Days",
+                            "type": "number"
+                        },
+                        {
+                            "code": "separator",
+                            "name": ""
+                        },
+                        {
+                            "code": "category",
+                            "name": "Custom"
+                        },
+                        {
+                            "code": "custom_today",
+                            "name": "Custom Date to Today",
+                            "type": "single"
+                        },
+                        {
+                            "code": "custom",
+                            "name": "Custom Range",
+                            "type": "range"
+                        }
+                    ]
+                },
+                "timeGroup": [
+                    {
+                        "code": "year",
+                        "name": "Year"
+                    },
+                    {
+                        "code": "quarter",
+                        "name": "Quarter"
+                    },
+                    {
+                        "code": "month",
+                        "name": "Month"
+                    },
+                    {
+                        "code": "week",
+                        "name": "Week"
+                    },
+                    {
+                        "code": "day",
+                        "name": "Day"
+                    },
+                    {
+                        "code": "hour",
+                        "name": "Hour"
+                    },
+                    {
+                        "code": "minute",
+                        "name": "Minute"
+                    },
+                    {
+                        "code": "seconds",
+                        "name": "Second"
+                    }
+                ]
+            }
+        }
+    }
+}
