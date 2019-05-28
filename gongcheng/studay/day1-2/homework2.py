@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 
+# 打印99乘法表
 def test(a):
     for i in range(1, a + 1):
         for j in range(1, i + 1):

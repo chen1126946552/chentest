@@ -76,10 +76,13 @@ def writefile(json_r3, filename):
 
     dataList = json_r3['data']['data']
     metricsNamelist = []
+    rowslist = []
     for i in dataList:
         metricsNamelist.append(i['metricsName'])
+        rowslist.append(i['rows'])
 
     list1.append(metricsNamelist)
+    list1.append(rowslist)
 
     # 将list,用###分隔写入文件中
     with open(filename, "a+") as out_file:

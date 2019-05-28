@@ -3,22 +3,22 @@
 
 import requests
 import json
+import logging
 
-host = 'https://middlev2.datadeck.com/api/slack/v1/widgets/'
 filenameWidget = 'widgetID_List1.csv'
-path = './middlev2/'
+host = 'https://gateway.datadeck.com/api/slack/v1/widgets/'
+path = './gateway/'
 
 
 # 从文件中获取widgetid的list
 def getwidget(filenameWidget):
     with open(filenameWidget, "rt") as in_file:
         text = in_file.read()
-    return text.strip().split('\n') # 去掉字符串前后空格换行，并按照换行符区分返回list
+    return text.strip().split('\n')  # 去掉字符串前后空格换行，并按照换行符区分返回list
 
 
 # 获取widget的数据
 def getdata(host, uid, widgetid):
-
     header = {'token': 'bm90aWZpY2F0aW9uX3N1cGVyX3Rva2Vu',
               'UserID': uid}
     url2 = host + widgetid
@@ -27,30 +27,55 @@ def getdata(host, uid, widgetid):
     # 响应的json数据转换为可被python识别的数据类型
     return r2.json()
 
+
 # 将获取的值，写入文件中
 def writefile(json_r):
     list1 = []
-    widgetid = json_r['data']['data']['widgetId']
-    filename = widgetid +'.csv'
+    try:
+        widgetid = json_r['data']['data']['widgetId']
+        filename = widgetid + '.txt'
 
-    dataList = json_r['data']['data']['data']
+        dataList = json_r['data']['data']['data']
 
-    # 将获取的值，添加到list
-    for i in dataList:
-        list1.append(i['metricsName'])
-        list1.append(i['rows'])
+        # 将获取的值，添加到list
+        for i in dataList:
+            for j in i['rows']:
+                list2 = []
+                for k in j:
+                    if (type(k) == float):
+                        print(k)
+                        list2.append(int(k))
+                    elif(type(k) == str):
+                        list2.append(k.replace('-', ''))
+                    else:
+                        list2.append(k)
+                list1.append(list2)
 
-    # 将list,写入文件中
-    fl = open(path + filename, "w+")
-    for i in list1:
-        fl.write(str(i))
-        fl.write('\n')
-    fl.close()
+        # 将list,写入文件中
+        fl = open(path + filename, "w+")
+        for i in list1:
+            fl.write(str(i))
+            fl.write('\n')
+        fl.close()
+    except:
+        print(' no data')
 
 
 if __name__ == '__main__':
     widgetlist = getwidget(filenameWidget)
+    j = 0
+    widgetlist = getwidget(filenameWidget)
+    LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
+    logging.basicConfig(level=logging.INFO, format=LOG_FORMAT)
     for i in widgetlist:
+        logging.info('start')
         widgetUidList = i.split(',')
+        logging.info('getdata start')
         json_r = getdata(host, widgetUidList[1], widgetUidList[0])
+        logging.info('getdata end')
+        logging.info('write start')
         writefile(json_r)
+        j = j + 1
+        print(j)
+        logging.info('end')
+

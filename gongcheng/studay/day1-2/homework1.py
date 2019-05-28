@@ -11,7 +11,7 @@ def sort1(a):
     return a
 
 # 去重
-def dele(a):
+def quchong(a):
     new = []
     for i in a:
         if i not in new:
@@ -29,9 +29,15 @@ def count1(a):
     return dic
 
 
+
+
 if ( __name__ == "__main__"):
     a = [1, 6, 8, 11, 9, 1, 8, 6, 8, 7, 8]
-    print(a)
-    print(sort1(a))
-    print(dele(a))
-    print(count1(a))
+
+    print(sort1(a))  # 将list进行排序，从小到大
+    print(quchong(a)) # 去掉重复出现的数字
+    c = count1(a)  # 获得每个数字出现的重复次数
+    print(c)
+
+    print(max(c, key = c.get)) # 获得重复次数最多的值
+    print(max(c.values())) #获得最多的重复次数
