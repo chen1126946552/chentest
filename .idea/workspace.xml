@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="fa2ce99a-9b87-446d-af41-f06634bf9581" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/APITestProject/run_all.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/PyTest_allure_apitest-master/test.py" afterDir="false" />
@@ -30,6 +31,81 @@
       <change beforePath="$PROJECT_DIR$/APITestProject最终版/xadmin_api/login_xadmin_api.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/APITestProject最终版/xadmin_api/teacher_add_api.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/chentest" beforeDir="false" afterPath="$PROJECT_DIR$/chentest" afterDir="false" />
+=======
+    <list default="true" id="0094529b-7ddf-4bc9-8882-66f030811af2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/case100/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case100/dsinfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case100/sqlinsert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/inter/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/inter/ke10/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/inter/ke10/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/inter/ke13/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/inter/ke13/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/inter/ke13/t1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/inter/ke13/t2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/inter/ke16/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/inter/ke16/test_ddt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/inter/ke16/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/studay/day4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/studay/day4/wenjianlujing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/studay/day9/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/studay/day9/cookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/studay/day9/cookies2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/studay/day9/cookies3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/studay/day9/cookies4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/studay/day9/homework1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/studay/day9/json1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/studay/day9/json2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/studay/day9/json3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/studay/day9/json4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/studay/day9/session1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/studay/day9/session2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gongcheng/studay/day9/session3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/getWidgetID.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/getdata_getway.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/getdata_minddlev2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/widgetID_List1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Dashboard改版.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/widget编辑器.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/数据源分享.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/权限.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/权限侧边栏_20170824.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/空间成员权限 (1).mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-Segment.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-Style设置.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-widget编辑器-编辑器设置界面.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-公共控件.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-图表关联 to Basic设置.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-图表切换.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-字段填充区.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-字段待选列表.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-已选字段设置(计算方式、时间group by、别名).mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-排序.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-时间控件.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-过滤器.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/Style图形切换.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/图表切换.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/数据源选择和切换.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesome-python3-webapp/www/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesome-python3-webapp/www/orm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case100/36_campPost.py" beforeDir="false" afterPath="$PROJECT_DIR$/case100/36_campPost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case100/ParamVaule_v2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/case100/ParamVaule_v2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drive-download-20170630T110620Z-001/04.面板中widget的功能.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drive-download-20170630T110620Z-001/06.widget信息.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drive-download-20170630T110620Z-001/07.公开链分享.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drive-download-20170630T110620Z-001/Dashboard过滤器.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drive-download-20170630T110620Z-001/全局过滤器0630.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gongcheng/studay/day1-2/homework1.py" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/day1-2/homework1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gongcheng/studay/day1-2/homework2.py" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/day1-2/homework2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gongcheng/studay/day1-2/homework4.py" beforeDir="false" afterPath="$PROJECT_DIR$/gongcheng/studay/day1-2/homework4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jike/decorator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jike/tryTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/case100/connectsql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/new.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ptengine_UItest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1.py" beforeDir="false" />
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,12 +114,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/APITestProject/run_all.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="11" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="11" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test2/getdata_getway.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+              <folding>
+                <element signature="e#81#96#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test2/getdata_minddlev2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="69" />
+              <folding>
+                <element signature="e#81#96#0" expanded="true" />
+              </folding>
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
             </state>
           </provider>
         </entry>
@@ -53,13 +153,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
+=======
+        <option value="HTML File" />
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
         <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
       <find>HTMLTest</find>
+=======
+      <find>main</find>
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -68,6 +176,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/chentest/test2/getdata_minddlev2.py" />
         <option value="$PROJECT_DIR$/chentest/test2/test2.py" />
         <option value="$PROJECT_DIR$/chentest/test2/widgetID_List1.csv" />
@@ -95,6 +204,69 @@
     <option name="height" value="764" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+=======
+        <option value="$PROJECT_DIR$/gongcheng/homework2.py" />
+        <option value="$PROJECT_DIR$/gongcheng/homework4.py" />
+        <option value="$PROJECT_DIR$/gongcheng/datadeck/login.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day3/test1.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day3/test2.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day3/test3.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day4/wenjianlujing.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day1-2/homework1.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day1-2/homework2.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day1-2/homework4.py" />
+        <option value="$PROJECT_DIR$/case100/demo.js" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day9/homework1.py" />
+        <option value="$PROJECT_DIR$/case100/dsinfo.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day9/cookies.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day9/cookies2.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day9/cookies3.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day9/cookies4.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day9/session1.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day9/session2.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day9/session3.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day9/json1.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day9/json2.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day9/json3.py" />
+        <option value="$PROJECT_DIR$/gongcheng/studay/day9/json4.py" />
+        <option value="$PROJECT_DIR$/case100/connectsql.py" />
+        <option value="$PROJECT_DIR$/case100/sqlinsert.py" />
+        <option value="$PROJECT_DIR$/gongcheng/inter/ke10/1.py" />
+        <option value="$PROJECT_DIR$/gongcheng/inter/ke13/demo.html" />
+        <option value="$PROJECT_DIR$/gongcheng/inter/ke13/t1.py" />
+        <option value="$PROJECT_DIR$/gongcheng/inter/ke13/t2.py" />
+        <option value="$PROJECT_DIR$/gongcheng/inter/ke15/hanshu.py" />
+        <option value="$PROJECT_DIR$/gongcheng/inter/ke16/test_ddt.py" />
+        <option value="$PROJECT_DIR$/gongcheng/inter/ke16/test_login.py" />
+        <option value="$PROJECT_DIR$/case100/36_campPost.py" />
+        <option value="$PROJECT_DIR$/case100/ParamVaule_v2_1.csv" />
+        <option value="$PROJECT_DIR$/case100/campaire.py" />
+        <option value="$PROJECT_DIR$/case100/widgetID_List1.csv" />
+        <option value="$PROJECT_DIR$/test2/campaire.py" />
+        <option value="$PROJECT_DIR$/test2/ca.py" />
+        <option value="$PROJECT_DIR$/test2/mysql1.py" />
+        <option value="$PROJECT_DIR$/test2/3.py" />
+        <option value="$PROJECT_DIR$/test2/6ae9022b-d16e-451c-913c-87e38645aa15.csv" />
+        <option value="$PROJECT_DIR$/test2/bbb9a3fe-122e-4b4a-a782-aefcbf6ae43e.csv" />
+        <option value="$PROJECT_DIR$/test2/middlev2/3ac04a0f-d61a-48bc-8cd6-67b095039756.csv" />
+        <option value="$PROJECT_DIR$/test2/campared.py" />
+        <option value="$PROJECT_DIR$/test2/getdata.py" />
+        <option value="$PROJECT_DIR$/test2/widgetList1.csv" />
+        <option value="$PROJECT_DIR$/test2/test.py" />
+        <option value="$PROJECT_DIR$/test2/widgetID_List1.csv" />
+        <option value="$PROJECT_DIR$/test2/getdata_minddlev2.py" />
+        <option value="$PROJECT_DIR$/test2/getdata_getway.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="39" />
+    <option name="y" value="23" />
+    <option name="width" value="1241" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -102,7 +274,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,12 +288,17 @@
             <path>
               <item name="chentest" type="b2602c69:ProjectViewProjectNode" />
               <item name="chentest" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="APITestProject" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,6 +316,28 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/chentest/sele" />
+=======
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test2/middlev2" />
+      <recent name="$PROJECT_DIR$/test2" />
+      <recent name="$PROJECT_DIR$/case100" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test2" />
+      <recent name="$PROJECT_DIR$/test2/getway" />
+      <recent name="$PROJECT_DIR$/gongcheng/studay/day1-2" />
+      <recent name="$PROJECT_DIR$/gongcheng/studay" />
+      <recent name="$PROJECT_DIR$/gongcheng" />
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
     </key>
   </component>
   <component name="RunDashboard">
@@ -150,8 +352,13 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.test3">
     <configuration name="Getbrowser (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.getdata_getway">
+    <configuration name="3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,11 +366,19 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chentest/sele" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chentest/sele/getbrowser.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2/getdata_minddlev2.py" />
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,7 +387,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="Getbrowser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="ca" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,11 +399,19 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chentest/case100" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chentest/case100/Getbrowser.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2/ca.py" />
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,7 +420,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="getdata_getway" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,11 +432,19 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autotest_platform-master" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autotest_platform-master/run.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2/getdata_getway.py" />
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,7 +453,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="mysql1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,11 +465,19 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chentest/sele" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chentest/sele/test3.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2/getWidgetID.py" />
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,6 +486,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="pytest in test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,15 +500,44 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/chentest/sele/test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+=======
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chentest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python.test3" />
         <item itemvalue="Python tests.pytest in test.py" />
         <item itemvalue="Python.Getbrowser (1)" />
         <item itemvalue="Python.Getbrowser" />
         <item itemvalue="Python.run" />
+=======
+        <item itemvalue="Python.getdata_getway" />
+        <item itemvalue="Python.3" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.mysql1" />
+        <item itemvalue="Python.ca" />
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
       </list>
     </recent_temporary>
   </component>
@@ -265,15 +546,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="fa2ce99a-9b87-446d-af41-f06634bf9581" name="Default Changelist" comment="" />
       <created>1557385059364</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557385059364</updated>
+=======
+      <changelist id="0094529b-7ddf-4bc9-8882-66f030811af2" name="Default Changelist" comment="" />
+      <created>1550730401554</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550730401554</updated>
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="pytest_in_11unittest_2_py - 2019.05.14 at 16h 15m 59s.xml">
       <configuration name="pytest in 11unittest_2.py" configurationId="tests" />
     </history-entry>
@@ -303,6 +593,34 @@
     </history-entry>
     <history-entry file="pytest_in_test_py - 2019.05.30 at 14h 26m 16s.xml">
       <configuration name="pytest in test.py" configurationId="tests" />
+=======
+    <history-entry file="Unittests_for_test3_TestAdd_test_add - 2019.02.25 at 12h 03m 11s.xml">
+      <configuration name="Unittests for test3.TestAdd.test_add" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test3_TestAdd_test_add2 - 2019.02.25 at 12h 18m 08s.xml">
+      <configuration name="Unittests for test3.TestAdd.test_add2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test3_py - 2019.02.25 at 12h 18m 41s.xml">
+      <configuration name="Unittests in test3.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test3_TestAdd_test_add2 - 2019.02.25 at 12h 18m 49s.xml">
+      <configuration name="Unittests for test3.TestAdd.test_add2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test3_py - 2019.02.25 at 12h 18m 51s.xml">
+      <configuration name="Unittests in test3.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_ddt_TestLogin_test_01 - 2019.04.17 at 16h 34m 43s.xml">
+      <configuration name="Unittests for test_ddt.TestLogin.test_01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_ddt_py - 2019.04.17 at 16h 35m 42s.xml">
+      <configuration name="Unittests in test_ddt.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_ddt_py - 2019.04.17 at 16h 36m 50s.xml">
+      <configuration name="Unittests in test_ddt.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_ddt_py - 2019.04.17 at 17h 14m 40s.xml">
+      <configuration name="Unittests in test_ddt.py" configurationId="tests" />
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
     </history-entry>
   </component>
   <component name="TodoView">
@@ -315,13 +633,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="3" y="23" width="1265" height="764" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23472668" />
+=======
+    <frame x="43" y="23" width="1237" height="777" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19325657" />
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.34160584" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -331,11 +657,23 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32846716" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38832116" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39941263" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32892805" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32892805" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32892805" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32892805" />
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/chentest/test2/gateway/da03f844-f996-4d46-afbc-4a2ce9be40b3.csv" />
     <entry file="file://$PROJECT_DIR$/chentest/test2/middlev2/da03f844-f996-4d46-afbc-4a2ce9be40b3.csv" />
@@ -362,10 +700,69 @@
           <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+=======
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gongcheng/datadeck/login.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gongcheng/datadeck/login.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gongcheng/inter/ke16/test_login.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongcheng/inter/ke16/test_ddt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/case100/widgetID_List.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/ParamVaule_v2.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/36_campPost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="33" lean-forward="true" selection-end-line="102" />
+          <folding>
+            <element signature="e#81#96#0" expanded="true" />
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/chentest/case100/a.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -528,10 +925,148 @@
           <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/case100/ParamVaule_v2_1.csv" />
+    <entry file="file://$PROJECT_DIR$/case100/b458ad19-d031-408c-888d-c1238ee0d5f3.csv" />
+    <entry file="file://$PROJECT_DIR$/case100/7265c1f6-4f0e-4d3c-90a7-1143c3103730.csv" />
+    <entry file="file://$PROJECT_DIR$/case100/777f824c-21d4-4a6a-a4cd-c0608998b524.csv" />
+    <entry file="file://$PROJECT_DIR$/case100/538d87b5-9822-40b1-aff1-31710ed1d8a1.csv" />
+    <entry file="file://$PROJECT_DIR$/case100/widgetID_List1.csv" />
+    <entry file="file://$PROJECT_DIR$/case100/35_strDic.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/38_multiprocessing.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/39_pool.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/40_subprocess.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/41_process.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/42_thread.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/43_lock.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/44_threadlocal.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/45_task_master.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/47_re.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/48_datetime.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/49_timezone.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/50_collections.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/51_base64.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/52_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/55_baidu.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/connectsql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="64" lean-forward="true" selection-end-line="67" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/campaire.py" />
+    <entry file="file://$PROJECT_DIR$/test2/ca.py" />
+    <entry file="file://$PROJECT_DIR$/test2/6ae9022b-d16e-451c-913c-87e38645aa15.csv" />
+    <entry file="file://$PROJECT_DIR$/test2/bbb9a3fe-122e-4b4a-a782-aefcbf6ae43e.csv" />
+    <entry file="file://$PROJECT_DIR$/test2/getway/3ac04a0f-d61a-48bc-8cd6-67b095039756.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/getway/4d4bcdf2-6295-4089-a4af-e5949bc2be5a.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/getway/20fa7e42-f424-4e5e-b313-cb1ade5368fd.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/getway/36a7a0bf-166a-4807-997a-f070ffa7652b.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/getway/56f591de-cc23-4a2a-865b-b0d5daee3fca.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/getway/61ecccb8-fa7f-4b44-815f-4e37a82dac55.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/getway/9617b352-95ee-4e4f-8448-b247f6134052.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/getway/c045732e-7783-4108-8b6c-9fa21f36da0a.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/getway/d6604b00-8b0a-4084-aeee-20a9dc970279.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/getway/f6bc0af2-d1fc-4178-bd82-7a6d900da480.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/middlev2/3ac04a0f-d61a-48bc-8cd6-67b095039756.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case100/34_campFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/campared.py" />
+    <entry file="file://$PROJECT_DIR$/test2/getWidgetID.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/middlev2/da03f844-f996-4d46-afbc-4a2ce9be40b3.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/getdata_getway.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+          <folding>
+            <element signature="e#81#96#0" expanded="true" />
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/chentest/sele/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -554,6 +1089,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="11" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="11" />
+=======
+    <entry file="file://$PROJECT_DIR$/test2/widgetID_List1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/getdata_minddlev2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="69" />
+          <folding>
+            <element signature="e#81#96#0" expanded="true" />
+          </folding>
+>>>>>>> d9977cd60924599d776db09218e80bee51f62455
         </state>
       </provider>
     </entry>
