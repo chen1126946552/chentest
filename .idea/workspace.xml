@@ -2,248 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2ce99a-9b87-446d-af41-f06634bf9581" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chentest/case100/57_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/case100/connectsql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/case100/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/case100/dsinfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/case100/sqlinsert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/inter/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/inter/ke10/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/inter/ke10/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/inter/ke13/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/inter/ke13/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/inter/ke13/t1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/inter/ke13/t2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/inter/ke16/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/inter/ke16/test_ddt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/inter/ke16/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/studay/day4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/studay/day4/wenjianlujing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/studay/day9/11unittest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/studay/day9/11unittest_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/studay/day9/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/studay/day9/cookies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/studay/day9/cookies2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/studay/day9/cookies3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/studay/day9/cookies4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/studay/day9/homework1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/studay/day9/json1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/studay/day9/json2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/studay/day9/json3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/studay/day9/json4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/studay/day9/session1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/studay/day9/session2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/gongcheng/studay/day9/session3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/test2/getWidgetID.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/test2/getdata_getway.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/test2/getdata_minddlev2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chentest/test2/widgetID_List1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/abtest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/args.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/comprehensions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/decorator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/dictSet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/do_if.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/do_slice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/filter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/function.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/generator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/hello.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/image.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/iterable.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/iteration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/lambda.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/map-1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/map.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/quadratic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/recur.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/return_func.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/shitouJiandaoBu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/sorted.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/test.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017-0708/yanhuisanjiao.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20171013/help_test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20171013/ptengine_UItest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/Dashboard改版.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/widget编辑器.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/数据源分享.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/权限.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/权限侧边栏_20170824.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/空间成员权限 (1).mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-Segment.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-Style设置.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-widget编辑器-编辑器设置界面.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-公共控件.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-图表关联 to Basic设置.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-图表切换.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-字段填充区.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-字段待选列表.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-已选字段设置(计算方式、时间group by、别名).mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-排序.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-时间控件.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/20170627-过滤器.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/Style图形切换.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/图表切换.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/编辑器/数据源选择和切换.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/AT_DD_Online_JP_HB_Check/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/AT_DD_Online_JP_HB_Check/script/DD_HB_Check.jmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/AT_DD_Online_JP_HB_Check/script/sendslack.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-DD-Interface-DataSource-AmazonRDSforMySQL-develop/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-DD-Interface-DataSource-AmazonRDSforMySQL-develop/script/DD_JP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-DD-Interface-DataSource-AmazonRDSforMySQL-develop/script/DataSourceParticularity_AmazonRDSforMySQL.jmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-DD-Interface-DataSource-AmazonRDSforMySQL-develop/script/DataSource_All.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-DD-Interface-DataSource-AmazonRDSforMySQL-develop/script/DataSource_Filter.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-DD-Interface-DataSource-AmazonRDSforMySQL-develop/script/DataSource_Future.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-DD-Interface-DataSource-AmazonRDSforMySQL-develop/script/sendmail_jp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__com_aventstack_extentreports_3_0_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__com_beust_jcommander_1_64.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__net_gpedro_integrations_slack_slack_webhook_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__org_jsoup_jsoup_1_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__org_mongodb_bson_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_53_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_53_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_53_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_53_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_46_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__org_testng_testng_6_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/ptmind_pom.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/driver/Driver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/driver/ScreenScr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/listener/ExtentManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/listener/ExtentTestNGITestListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/listener/OverrideIReTry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/listener/SlackAttachmentBuild.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/listener/SlackMessageSend.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/ptengine/base/BasePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/ptengine/check/DashboardCheck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/ptengine/check/HeatmapCheck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/ptengine/check/LiftMenuCheck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/ptengine/check/LoginCheck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/ptengine/check/ProfilelistCheck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/ptengine/check/TableCheck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/ptengine/page/DashboardPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/ptengine/page/HeatmapPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/ptengine/page/LiftMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/ptengine/page/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/ptengine/page/ProfilelistPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/ptengine/page/TablePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/ptengine/pagemethod/DashboardMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/ptengine/pagemethod/HeatmapMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/ptengine/pagemethod/LiftMenuMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/ptengine/pagemethod/LoginMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/ptengine/pagemethod/ProfilelistMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/ptengine/pagemethod/TableMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/src/test/java/com/ptengine/testcase/TestWithPOM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/test-output/com.ptengine.testcase.TestWithPOMcheckDashboard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/test-output/com.ptengine.testcase.TestWithPOMlogin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Autotest-PTE-UI_Datacheck-master/testng.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Staging-DD-AmazonS3/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Staging-DD-AmazonS3/script/DD_AmazonS3.jmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Staging-DD-AmazonS3/script/DD_JP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Staging-DD-AmazonS3/script/DataSourceParticularity_AmazonS3.jmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Staging-DD-AmazonS3/script/DataSource_All.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Staging-DD-AmazonS3/script/DataSource_Filter.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Staging-DD-AmazonS3/script/DataSource_Future.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Staging-DD-AmazonS3/script/s3-error.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Staging-DD-AmazonS3/script/s3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Staging-DD-AmazonS3/script/sendmail_jp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Staging-DD-Plan/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Staging-DD-Plan/script/DataSource_Plan.jmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto副本/Staging-DD-Plan/script/sendmail_jp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/awesome-python3-webapp/www/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/awesome-python3-webapp/www/orm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chentest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/Dashboard改版.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/widget编辑器.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/数据源分享.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/权限.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/权限侧边栏_20170824.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/空间成员权限 (1).mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/编辑器/20170627-Segment.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/编辑器/20170627-Style设置.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/编辑器/20170627-widget编辑器-编辑器设置界面.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/编辑器/20170627-公共控件.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/编辑器/20170627-图表关联 to Basic设置.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/编辑器/20170627-图表切换.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/编辑器/20170627-字段填充区.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/编辑器/20170627-字段待选列表.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/编辑器/20170627-已选字段设置(计算方式、时间group by、别名).mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/编辑器/20170627-排序.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/编辑器/20170627-时间控件.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/编辑器/20170627-过滤器.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/编辑器/Style图形切换.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/编辑器/图表切换.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/TestCase/编辑器/数据源选择和切换.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/awesome-python3-webapp/www/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/awesome-python3-webapp/www/orm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/case100/36_campPost.py" beforeDir="false" afterPath="$PROJECT_DIR$/chentest/case100/36_campPost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/case100/ParamVaule_v2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chentest/case100/ParamVaule_v2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/case100/json.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chentest/case100/json.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/drive-download-20170630T110620Z-001/04.面板中widget的功能.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/drive-download-20170630T110620Z-001/06.widget信息.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/drive-download-20170630T110620Z-001/07.公开链分享.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/drive-download-20170630T110620Z-001/Dashboard过滤器.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/drive-download-20170630T110620Z-001/全局过滤器0630.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/gongcheng/studay/day1-2/homework1.py" beforeDir="false" afterPath="$PROJECT_DIR$/chentest/gongcheng/studay/day1-2/homework1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/gongcheng/studay/day1-2/homework2.py" beforeDir="false" afterPath="$PROJECT_DIR$/chentest/gongcheng/studay/day1-2/homework2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/gongcheng/studay/day1-2/homework4.py" beforeDir="false" afterPath="$PROJECT_DIR$/chentest/gongcheng/studay/day1-2/homework4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/jike/decorator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/jike/tryTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/chentest/case100/56_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/new/new.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/ptengine_UItest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chentest/test1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive-download-20170630T110620Z-001/04.面板中widget的功能.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive-download-20170630T110620Z-001/06.widget信息.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive-download-20170630T110620Z-001/07.公开链分享.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive-download-20170630T110620Z-001/Dashboard过滤器.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive-download-20170630T110620Z-001/全局过滤器0630.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/help_link_test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface_JP/fileoperter.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface_JP/interface_JP/dc_case_jp.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface_JP/interface_JP/event_case_jp.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface_JP/interface_JP/数据收集.jmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface_JP/interface_JP/数据比对.jmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface_JP/xml2csv.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven+selenium+testng+extentX开发环境搭建.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/new.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/学位证.PDF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/学历证.PDF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ptengine_ui_test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/test/java/helloworld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/test1.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/APITestProject/run_all.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyTest_allure_apitest-master/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/.idea/APITestProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/cases/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/cases/model1/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/cases/model1/test.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/cases/model1/test_login_ddt_cls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/cases/model2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/cases/model2/test_weather.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/cases/test_login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/common/HTMLTestRunner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/common/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/common/excuet_sql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/common/read_excel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/report/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/report/result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/run_all.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/xadmin_api/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/xadmin_api/login_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/xadmin_api/login_cls_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/xadmin_api/login_xadmin_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITestProject最终版/xadmin_api/teacher_add_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chentest" beforeDir="false" afterPath="$PROJECT_DIR$/chentest" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -252,12 +38,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chentest/gongcheng/studay/day9/11unittest.py">
+        <entry file="file://$PROJECT_DIR$/APITestProject/run_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="51">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -271,8 +57,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>HTMLTest</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/chentest" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -286,14 +77,22 @@
         <option value="$PROJECT_DIR$/chentest/gongcheng/studay/day9/11unittest.py" />
         <option value="$PROJECT_DIR$/chentest/case100/json.csv" />
         <option value="$PROJECT_DIR$/chentest/case100/57_json.py" />
+        <option value="$PROJECT_DIR$/PyTest_allure_apitest-master/test.py" />
+        <option value="$PROJECT_DIR$/autotest_platform-master/run.py" />
+        <option value="$PROJECT_DIR$/chentest/case100/Getbrowser.py" />
+        <option value="$PROJECT_DIR$/chentest/case100/test.py" />
+        <option value="$PROJECT_DIR$/chentest/sele/Getbrowser.py" />
+        <option value="$PROJECT_DIR$/chentest/sele/test2.py" />
+        <option value="$PROJECT_DIR$/chentest/sele/test.py" />
+        <option value="$PROJECT_DIR$/chentest/sele/test3.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="43" />
+    <option name="x" value="3" />
     <option name="y" value="23" />
-    <option name="width" value="1237" />
-    <option name="height" value="777" />
+    <option name="width" value="1265" />
+    <option name="height" value="764" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -303,6 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,16 +110,20 @@
               <item name="chentest" type="b2602c69:ProjectViewProjectNode" />
               <item name="chentest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="chentest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chentest" type="462c0819:PsiDirectoryNode" />
+              <item name="APITestProject" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -328,6 +132,11 @@
         <option name="myModuleName" value="chentest" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chentest/sele" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -341,8 +150,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in 11unittest.py">
-    <configuration name="57_json" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test3">
+    <configuration name="Getbrowser (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chentest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chentest/sele" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chentest/sele/getbrowser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Getbrowser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -354,7 +184,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chentest/case100/57_json.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chentest/case100/Getbrowser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -363,73 +193,70 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for 11unittest_2.TestWeather.test_01" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chentest/gongcheng/studay/day9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autotest_platform-master" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;11unittest_2.TestWeather.test_01&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autotest_platform-master/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for 11unittest.Test.test_01" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chentest/gongcheng/studay/day9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chentest/sele" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;11unittest.Test.test_01&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chentest/sele/test3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in 11unittest_2.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="chentest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chentest/gongcheng/studay/day9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chentest/sele" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/chentest/gongcheng/studay/day9/11unittest_2.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in 11unittest.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="chentest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chentest/gongcheng/studay/day9" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/chentest/gongcheng/studay/day9/11unittest.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/chentest/sele/test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in 11unittest.py" />
-        <item itemvalue="Python.57_json" />
-        <item itemvalue="Python tests.pytest for 11unittest.Test.test_01" />
-        <item itemvalue="Python tests.pytest in 11unittest_2.py" />
-        <item itemvalue="Python tests.pytest for 11unittest_2.TestWeather.test_01" />
+        <item itemvalue="Python.test3" />
+        <item itemvalue="Python tests.pytest in test.py" />
+        <item itemvalue="Python.Getbrowser (1)" />
+        <item itemvalue="Python.Getbrowser" />
+        <item itemvalue="Python.run" />
       </list>
     </recent_temporary>
   </component>
@@ -447,12 +274,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_11unittest_2_TestWeather_test_01 - 2019.05.13 at 18h 07m 57s.xml">
-      <configuration name="pytest for 11unittest_2.TestWeather.test_01" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_11unittest_2_TestWeather_test_01 - 2019.05.13 at 18h 08m 54s.xml">
-      <configuration name="pytest for 11unittest_2.TestWeather.test_01" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_11unittest_2_py - 2019.05.14 at 16h 15m 59s.xml">
       <configuration name="pytest in 11unittest_2.py" configurationId="tests" />
     </history-entry>
@@ -477,6 +298,12 @@
     <history-entry file="pytest_in_11unittest_py - 2019.05.16 at 19h 32m 43s.xml">
       <configuration name="pytest in 11unittest.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_py - 2019.05.30 at 14h 25m 26s.xml">
+      <configuration name="pytest in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_py - 2019.05.30 at 14h 26m 16s.xml">
+      <configuration name="pytest in test.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -488,14 +315,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="23" width="1237" height="777" extended-state="0" />
+    <frame x="3" y="23" width="1265" height="764" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19736843" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23472668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36642337" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34160584" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -553,9 +380,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chentest/case100/40_subprocess.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chentest/case100/47_re.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/chentest/case100/48_datetime.py">
@@ -624,7 +448,112 @@
     <entry file="file://$PROJECT_DIR$/chentest/gongcheng/studay/day9/11unittest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="1325" selection-start-line="1325" selection-end-line="1325" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chentest/case100/47_re.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyTest_allure_apitest-master/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyTest_allure_apitest-master/window运行.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyTest_allure_apitest-master/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autotest_platform-master/run_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autotest_platform-master/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autotest_platform-master/app/useDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+          <folding>
+            <element signature="e#25#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chentest/case100/Getbrowser.py" />
+    <entry file="file://$PROJECT_DIR$/chentest/case100/test.py" />
+    <entry file="file://$PROJECT_DIR$/chentest/sele/getbrowser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chentest/sele/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chentest/sele/test3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chentest/sele/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APITestProject/report/result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APITestProject/common/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2356" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APITestProject/run_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>

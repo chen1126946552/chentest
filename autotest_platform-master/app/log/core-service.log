@@ -1,0 +1,9 @@
+2019-05-30 10:15:36,418 - [process.py: 27] -INFO: 开始执行 id ： 21852      | 用例 ：Chrome,前往|http://www.baidu.com,填写|id@@kw@@selenium,点击|id@@su,验证|Web Browser Automation,截图 
+2019-05-30 10:15:36,423 - [process.py: 61] -INFO: cannot run without available hubs!
+2019-05-30 10:15:36,423 - [process.py: 48] -INFO: id is 21852, result is 3, stepname is init
+2019-05-30 10:16:00,568 - [process.py: 27] -INFO: 开始执行 id ： 21852      | 用例 ：Chrome,前往|http://www.baidu.com,填写|id@@kw@@selenium,点击|id@@su,验证|Web Browser Automation,截图 
+2019-05-30 10:16:00,572 - [process.py: 61] -INFO: cannot run without available hubs!
+2019-05-30 10:16:00,572 - [process.py: 48] -INFO: id is 21852, result is 3, stepname is init
+2019-05-30 10:16:54,790 - [process.py: 27] -INFO: 开始执行 id ： 21853      | 用例 ：Chrome,前往|http://www.baidu.com,填写|id@@kw@@selenium,点击|id@@su,验证|Web Browser Automation,截图 
+2019-05-30 10:16:54,794 - [process.py: 61] -INFO: cannot run without available hubs!
+2019-05-30 10:16:54,795 - [process.py: 48] -INFO: id is 21853, result is 3, stepname is init
