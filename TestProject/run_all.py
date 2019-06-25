@@ -44,9 +44,10 @@ def run_case(all_case, reportName="report"):
                                                description=u'用例执行情况：')
 
     # 调用add_case函数返回值
-    runner.run(all_case)
-
+    s = runner.run(all_case)
     fp.close()
+    return s
+
 
 def get_report_file(report_path):
     '''第三步：获取最新的测试报告'''
@@ -69,12 +70,12 @@ def send_message():
 
 if __name__ == "__main__":
     all_case = add_case()   # 1 加载用例
-    run_case(all_case)        # 2执行用例
+    s = run_case(all_case)        # 2执行用例
     # # 获取最新的测试报告文件
     report_path = os.path.join(cur_path, "report")  # 用例文件夹
     report_file = get_report_file(report_path)  # 3获取最新的测试报告
-    print(report_file)
-    send_message()
+    if s.failure_count + s.error_count > 0:
+        send_message()
 
 
 
