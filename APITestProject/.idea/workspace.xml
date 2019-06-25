@@ -1,7 +1,947 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e598adb9-2148-4215-9b7b-6312882c2dbf" name="Default Changelist" comment="" />
+    <list default="true" id="e598adb9-2148-4215-9b7b-6312882c2dbf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case100/puppCase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/APITestProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/APITestProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/.idea/autotest_platform-master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/Q&amp;A.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/api_new/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/api_new/api_manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/api_new/paras.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/client/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/client/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/client/selenium-server-standalone-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/core/atx_core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/core/atx_coreservice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/core/atx_steps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/core/buildCase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/core/coredriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/core/coreservice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/core/extend.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/core/hubs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/core/keywords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/core/log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/core/log1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/core/process.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/core/service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/core/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/db/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/db/test_api_new_manange.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/db/test_batch_manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/db/test_case_manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/db/test_keyword_manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/db/test_minder_manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/db/test_suite_manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/db/test_task_manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/db/test_unittest_manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/db/test_user_manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/dockerfile/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/dockerfile/docker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/dockerfile/runall.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/log/core-service.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/log/flask.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/log/service.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/log/sql.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/logsql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/assets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-3.3.7-dist/dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-3.3.7-dist/dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-3.3.7-dist/dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-3.3.7-dist/dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-3.3.7-dist/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-3.3.7-dist/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-3.3.7-dist/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-3.3.7-dist/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-3.3.7-dist/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-3.3.7-dist/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-3.3.7-dist/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-3.3.7-dist/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-3.3.7-dist/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-3.3.7-dist/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-3.3.7-dist/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-3.3.7-dist/dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/bootstrap-table.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/DT_bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/DT_bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/bootstrap-editable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/bootstrap-editable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/bootstrap-table-locale-all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/bootstrap-table-locale-all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/bootstrap-table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/bootstrap-table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/bootstrap-table.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/bootstrap-table.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/accent-neutralise/bootstrap-table-accent-neutralise.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/angular/bootstrap-table-angular.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/angular/bootstrap-table-angular.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/auto-refresh/bootstrap-table-auto-refresh.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/auto-refresh/bootstrap-table-auto-refresh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/auto-refresh/bootstrap-table-auto-refresh.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/click-edit-row/bootstrap-table-click-edit-row.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/click-edit-row/bootstrap-table-click-edit-row.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/click-edit-row/bootstrap-table-click-edit-row.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/cookie/bootstrap-table-cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/cookie/bootstrap-table-cookie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/copy-rows/bootstrap-table-copy-rows.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/copy-rows/bootstrap-table-copy-rows.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/editable/bootstrap-table-editable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/editable/bootstrap-table-editable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/export/bootstrap-table-export.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/export/bootstrap-table-export.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/filter-control/bootstrap-table-filter-control.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/filter-control/bootstrap-table-filter-control.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/filter-control/bootstrap-table-filter-control.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/filter/bootstrap-table-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/filter/bootstrap-table-filter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/flat-json/bootstrap-table-flat-json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/flat-json/bootstrap-table-flat-json.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/group-by-v2/bootstrap-table-group-by.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/group-by-v2/bootstrap-table-group-by.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/group-by-v2/bootstrap-table-group-by.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/group-by/bootstrap-table-group-by.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/group-by/bootstrap-table-group-by.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/group-by/bootstrap-table-group-by.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/i18n-enhance/bootstrap-table-i18n-enhance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/i18n-enhance/bootstrap-table-i18n-enhance.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/key-events/bootstrap-table-key-events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/key-events/bootstrap-table-key-events.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/mobile/bootstrap-table-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/mobile/bootstrap-table-mobile.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/multi-column-toggle/bootstrap-table-multi-toggle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/multi-column-toggle/bootstrap-table-multi-toggle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/multiple-search/bootstrap-table-multiple-search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/multiple-search/bootstrap-table-multiple-search.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/multiple-sort/bootstrap-table-multiple-sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/multiple-sort/bootstrap-table-multiple-sort.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/natural-sorting/bootstrap-table-natural-sorting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/natural-sorting/bootstrap-table-natural-sorting.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/print/bootstrap-table-print.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/print/bootstrap-table-print.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/reorder-columns/bootstrap-table-reorder-columns.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/reorder-columns/bootstrap-table-reorder-columns.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/resizable/bootstrap-table-resizable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/resizable/bootstrap-table-resizable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/select2-filter/bootstrap-table-select2-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/select2-filter/bootstrap-table-select2-filter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/sticky-header/bootstrap-table-sticky-header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/sticky-header/bootstrap-table-sticky-header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/sticky-header/bootstrap-table-sticky-header.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/toolbar/bootstrap-table-toolbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/toolbar/bootstrap-table-toolbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/tree-column/bootstrap-table-tree-column.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/tree-column/bootstrap-table-tree-column.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/extensions/tree-column/bootstrap-table-tree-column.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/jquery.dataTables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-af-ZA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-af-ZA.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-ar-SA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-ar-SA.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-ca-ES.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-ca-ES.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-cs-CZ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-cs-CZ.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-da-DK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-da-DK.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-de-DE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-de-DE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-el-GR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-el-GR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-en-US.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-en-US.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-es-AR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-es-AR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-es-CL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-es-CL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-es-CR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-es-CR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-es-ES.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-es-ES.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-es-MX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-es-MX.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-es-NI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-es-NI.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-es-SP.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-es-SP.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-et-EE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-et-EE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-fa-IR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-fa-IR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-fr-BE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-fr-BE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-fr-FR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-fr-FR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-he-IL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-he-IL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-hr-HR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-hr-HR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-hu-HU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-hu-HU.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-id-ID.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-id-ID.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-it-IT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-it-IT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-ja-JP.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-ja-JP.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-ka-GE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-ka-GE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-ko-KR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-ko-KR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-ms-MY.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-ms-MY.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-nb-NO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-nb-NO.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-nl-NL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-nl-NL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-pl-PL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-pl-PL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-pt-BR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-pt-PT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-pt-PT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-ro-RO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-ro-RO.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-ru-RU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-ru-RU.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-sk-SK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-sk-SK.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-sv-SE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-sv-SE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-th-TH.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-th-TH.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-tr-TR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-tr-TR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-uk-UA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-uk-UA.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-ur-PK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-ur-PK.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-uz-Latn-UZ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-uz-Latn-UZ.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-vi-VN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-vi-VN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-zh-CN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/dist/locale/bootstrap-table-zh-TW.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/en/documentation/column-options.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/en/documentation/events.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/en/documentation/localizations.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/en/documentation/methods.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/en/documentation/table-options.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/en/donate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/en/faq/faq.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/en/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/en/getting-started/download.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/en/getting-started/grunt.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/en/getting-started/usage.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/en/getting-started/whats-include.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/en/home/feature.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/es.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/es/documentation/column-options.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/es/documentation/events.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/es/documentation/localizations.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/es/documentation/methods.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/es/documentation/table-options.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/es/donate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/es/faq/faq.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/es/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/es/getting-started/download.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/es/getting-started/grunt.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/es/getting-started/usage.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/es/getting-started/whats-include.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/es/home/feature.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/zh-cn.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/zh-cn/documentation/column-options.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/zh-cn/documentation/events.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/zh-cn/documentation/localizations.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/zh-cn/documentation/methods.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/zh-cn/documentation/table-options.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/zh-cn/donate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/zh-cn/faq/faq.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/zh-cn/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/zh-cn/getting-started/download.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/zh-cn/getting-started/grunt.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/zh-cn/getting-started/usage.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/zh-cn/getting-started/whats-include.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_i18n/zh-cn/home/feature.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_includes/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_includes/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_includes/latest-release.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_includes/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_includes/social-buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_layouts/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_layouts/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_plugins/markdown-tag.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/_plugins/multiple-languages.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/bootstrap/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/css/docs.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/css/sidenav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/flash/ZeroClipboard.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/images/alipay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/images/alipayLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/images/paypalLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/images/weixin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/images/weixinLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/js/customize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/js/docs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/js/ie-emulation-modes-warning.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/js/ie10-viewport-bug-workaround.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/js/ie8-responsive-file-warning.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/assets/js/sidenav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/data/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/data/data1/demo.response.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/data/data2/demo.response.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/data/data3/demo.response.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/data/data4/demo.response.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/data/data5/demo.response.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/data/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/bootstrap-table-locale-all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/bootstrap-table-locale-all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/bootstrap-table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/bootstrap-table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/bootstrap-table.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/bootstrap-table.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/accent-neutralise/bootstrap-table-accent-neutralise.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/angular/bootstrap-table-angular.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/angular/bootstrap-table-angular.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/auto-refresh/bootstrap-table-auto-refresh.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/auto-refresh/bootstrap-table-auto-refresh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/auto-refresh/bootstrap-table-auto-refresh.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/click-edit-row/bootstrap-table-click-edit-row.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/click-edit-row/bootstrap-table-click-edit-row.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/click-edit-row/bootstrap-table-click-edit-row.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/cookie/bootstrap-table-cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/cookie/bootstrap-table-cookie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/copy-rows/bootstrap-table-copy-rows.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/copy-rows/bootstrap-table-copy-rows.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/editable/bootstrap-table-editable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/editable/bootstrap-table-editable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/export/bootstrap-table-export.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/export/bootstrap-table-export.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/filter-control/bootstrap-table-filter-control.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/filter-control/bootstrap-table-filter-control.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/filter-control/bootstrap-table-filter-control.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/filter/bootstrap-table-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/filter/bootstrap-table-filter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/flat-json/bootstrap-table-flat-json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/flat-json/bootstrap-table-flat-json.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/group-by-v2/bootstrap-table-group-by.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/group-by-v2/bootstrap-table-group-by.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/group-by-v2/bootstrap-table-group-by.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/group-by/bootstrap-table-group-by.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/group-by/bootstrap-table-group-by.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/group-by/bootstrap-table-group-by.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/i18n-enhance/bootstrap-table-i18n-enhance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/i18n-enhance/bootstrap-table-i18n-enhance.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/key-events/bootstrap-table-key-events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/key-events/bootstrap-table-key-events.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/mobile/bootstrap-table-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/mobile/bootstrap-table-mobile.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/multi-column-toggle/bootstrap-table-multi-toggle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/multi-column-toggle/bootstrap-table-multi-toggle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/multiple-search/bootstrap-table-multiple-search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/multiple-search/bootstrap-table-multiple-search.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/multiple-sort/bootstrap-table-multiple-sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/multiple-sort/bootstrap-table-multiple-sort.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/natural-sorting/bootstrap-table-natural-sorting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/natural-sorting/bootstrap-table-natural-sorting.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/print/bootstrap-table-print.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/print/bootstrap-table-print.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/reorder-columns/bootstrap-table-reorder-columns.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/reorder-columns/bootstrap-table-reorder-columns.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/resizable/bootstrap-table-resizable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/resizable/bootstrap-table-resizable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/select2-filter/bootstrap-table-select2-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/select2-filter/bootstrap-table-select2-filter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/sticky-header/bootstrap-table-sticky-header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/sticky-header/bootstrap-table-sticky-header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/sticky-header/bootstrap-table-sticky-header.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/toolbar/bootstrap-table-toolbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/toolbar/bootstrap-table-toolbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/tree-column/bootstrap-table-tree-column.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/tree-column/bootstrap-table-tree-column.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/extensions/tree-column/bootstrap-table-tree-column.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-af-ZA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-af-ZA.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-ar-SA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-ar-SA.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-ca-ES.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-ca-ES.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-cs-CZ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-cs-CZ.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-da-DK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-da-DK.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-de-DE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-de-DE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-el-GR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-el-GR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-en-US.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-en-US.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-es-AR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-es-AR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-es-CL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-es-CL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-es-CR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-es-CR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-es-ES.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-es-ES.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-es-MX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-es-MX.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-es-NI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-es-NI.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-es-SP.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-es-SP.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-et-EE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-et-EE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-fa-IR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-fa-IR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-fr-BE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-fr-BE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-fr-FR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-fr-FR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-he-IL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-he-IL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-hr-HR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-hr-HR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-hu-HU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-hu-HU.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-id-ID.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-id-ID.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-it-IT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-it-IT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-ja-JP.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-ja-JP.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-ka-GE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-ka-GE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-ko-KR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-ko-KR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-ms-MY.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-ms-MY.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-nb-NO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-nb-NO.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-nl-NL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-nl-NL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-pl-PL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-pl-PL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-pt-BR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-pt-PT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-pt-PT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-ro-RO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-ro-RO.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-ru-RU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-ru-RU.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-sk-SK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-sk-SK.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-sv-SE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-sv-SE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-th-TH.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-th-TH.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-tr-TR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-tr-TR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-uk-UA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-uk-UA.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-ur-PK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-ur-PK.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-uz-Latn-UZ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-uz-Latn-UZ.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-vi-VN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-vi-VN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-zh-CN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/dist/locale/bootstrap-table-zh-TW.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/docs/sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/bootstrap-table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/bootstrap-table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/accent-neutralise/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/accent-neutralise/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/angular/bootstrap-table-angular.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/auto-refresh/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/auto-refresh/bootstrap-table-auto-refresh.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/auto-refresh/bootstrap-table-auto-refresh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/auto-refresh/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/click-edit-row/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/click-edit-row/bootstrap-table-click-edit-row.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/click-edit-row/bootstrap-table-click-edit-row.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/cookie/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/cookie/bootstrap-table-cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/cookie/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/copy-rows/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/copy-rows/bootstrap-table-copy-rows.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/copy-rows/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/editable/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/editable/bootstrap-table-editable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/editable/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/export/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/export/bootstrap-table-export.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/export/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/filter-control/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/filter-control/bootstrap-table-filter-control.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/filter-control/bootstrap-table-filter-control.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/filter-control/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/filter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/filter/bootstrap-table-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/filter/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/flat-json/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/flat-json/bootstrap-table-flat-json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/flat-json/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/group-by-v2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/group-by-v2/bootstrap-table-group-by.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/group-by-v2/bootstrap-table-group-by.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/group-by-v2/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/group-by/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/group-by/bootstrap-table-group-by.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/group-by/bootstrap-table-group-by.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/group-by/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/i18n-enhance/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/i18n-enhance/bootstrap-table-i18n-enhance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/i18n-enhance/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/key-events/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/key-events/bootstrap-table-key-events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/key-events/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/mobile/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/mobile/bootstrap-table-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/mobile/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/multi-column-toggle/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/multi-column-toggle/bootstrap-table-multi-toggle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/multi-column-toggle/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/multiple-search/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/multiple-search/bootstrap-table-multiple-search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/multiple-search/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/multiple-selection-row/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/multiple-selection-row/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/multiple-sort/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/multiple-sort/bootstrap-table-multiple-sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/multiple-sort/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/natural-sorting/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/natural-sorting/bootstrap-table-natural-sorting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/natural-sorting/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/print/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/print/bootstrap-table-print.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/reorder-columns/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/reorder-columns/bootstrap-table-reorder-columns.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/reorder-columns/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/reorder-rows/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/reorder-rows/bootstrap-table-reorder-rows.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/reorder-rows/bootstrap-table-reorder-rows.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/reorder-rows/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/resizable/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/resizable/bootstrap-table-resizable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/resizable/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/select2-filter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/select2-filter/bootstrap-table-select2-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/select2-filter/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/sticky-header/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/sticky-header/bootstrap-table-sticky-header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/sticky-header/bootstrap-table-sticky-header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/sticky-header/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/toolbar/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/toolbar/bootstrap-table-toolbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/toolbar/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/tree-column/bootstrap-table-tree-column.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/tree-column/bootstrap-table-tree-column.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/tree-column/bootstrap-table-tree-column.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/tree-column/extension.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/extensions/tree-column/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-af-ZA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-ar-SA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-ca-ES.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-cs-CZ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-da-DK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-de-DE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-el-GR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-en-US.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-en-US.js.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-es-AR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-es-CL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-es-CR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-es-ES.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-es-MX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-es-NI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-es-SP.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-et-EE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-eu-EU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-fa-IR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-fr-BE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-fr-FR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-he-IL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-hr-HR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-hu-HU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-id-ID.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-it-IT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-ja-JP.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-ka-GE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-ko-KR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-ms-MY.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-nb-NO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-nl-NL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-pl-PL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-pt-PT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-ro-RO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-ru-RU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-sk-SK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-sv-SE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-th-TH.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-tr-TR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-uk-UA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-ur-PK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-uz-Latn-UZ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-vi-VN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/bootstrap-table-develop/src/locale/bootstrap-table-zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/font-awesome/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/jquery-1.12.4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/jquery-1.12.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/.bowerrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/.jscsrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/_navigator.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/_tool_group.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/_vars.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/editor.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/imageDialog.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/appearance/colorPanel.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/appearance/fontOperator.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/appearance/layout.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/appearance/styleOperator.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/appearance/templatePanel.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/appearance/themePanel.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/idea/appendNode.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/idea/arrange.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/idea/hyperlink.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/idea/image.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/idea/note.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/idea/noteEditor.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/idea/operation.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/idea/priority.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/idea/progress.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/idea/resource.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/idea/undoRedo.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/searchBox.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/topTab.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/view/expand.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/view/search.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/less/topTab/view/select.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/relations.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/server/imageUpload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/expose-editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/hotbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/minder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/runtime/clipboard-mimetype.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/runtime/clipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/runtime/container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/runtime/drag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/runtime/fsm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/runtime/history.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/runtime/hotbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/runtime/input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/runtime/jumping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/runtime/minder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/runtime/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/runtime/priority.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/runtime/progress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/runtime/receiver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/tool/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/tool/format.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/tool/innertext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/tool/jsondiff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/tool/key.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/src/tool/keymap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/dialog/hyperlink/hyperlink.ctrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/dialog/hyperlink/hyperlink.tpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/dialog/imExportNode/imExportNode.ctrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/dialog/imExportNode/imExportNode.tpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/dialog/image/image.ctrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/dialog/image/image.tpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/appendNode/appendNode.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/appendNode/appendNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/arrange/arrange.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/arrange/arrange.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/colorPanel/colorPanel.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/colorPanel/colorPanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/expandLevel/expandLevel.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/expandLevel/expandLevel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/fontOperator/fontOperator.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/fontOperator/fontOperator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/hyperLink/hyperLink.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/hyperLink/hyperLink.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/imageBtn/imageBtn.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/imageBtn/imageBtn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/kityminderEditor/kityminderEditor.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/kityminderEditor/kityminderEditor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/kityminderViewer/kityminderViewer.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/kityminderViewer/kityminderViewer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/layout/layout.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/layout/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/navigator/navigator.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/navigator/navigator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/noteBtn/noteBtn.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/noteBtn/noteBtn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/noteEditor/noteEditor.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/noteEditor/noteEditor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/notePreviewer/notePreviewer.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/notePreviewer/notePreviewer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/operation/operation.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/operation/operation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/priorityEditor/priorityEditor.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/priorityEditor/priorityEditor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/progressEditor/progressEditor.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/progressEditor/progressEditor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/resourceEditor/resourceEditor.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/resourceEditor/resourceEditor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/searchBox/searchBox.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/searchBox/searchBox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/searchBtn/searchBtn.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/searchBtn/searchBtn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/selectAll/selectAll.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/selectAll/selectAll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/styleOperator/styleOperator.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/styleOperator/styleOperator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/templateList/templateList.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/templateList/templateList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/themeList/themeList.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/themeList/themeList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/topTab/topTab.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/topTab/topTab.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/undoRedo/undoRedo.directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/directive/undoRedo/undoRedo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/filter/command.filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/filter/lang.filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/images/iconpriority.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/images/iconprogress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/images/template.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/kityminder.app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/service/commandBinder.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/service/config.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/service/lang.zh-cn.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/service/memory.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/service/minder.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/service/resource.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/service/revokeDialog.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/service/server.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/minder/ui/service/valueTransfer.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/screenshot/errorScreenShot/21859_error2018-08-12_16_03_06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/screenshot/normalScreenShot/21860_success2018-08-12_16_00_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/screenshot/normalScreenShot/21860_success2018-08-12_16_00_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/scripts/api_new/test_api_new.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/scripts/api_new/test_api_run_new.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/scripts/core/attach_test_batch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/scripts/core/test_batch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/scripts/core/test_batch2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/scripts/core/test_case.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/scripts/core/test_file.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/scripts/core/test_keywords.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/scripts/core/test_suite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/scripts/minder/test_minders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/scripts/others/hubs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/scripts/others/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/scripts/others/unittest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/scripts/others/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/scripts/util/devices.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/scripts/util/editable-table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/scripts/util/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/scripts/util/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/scripts/util/tables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/static/scripts/util/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/apinew/edit_test_api.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/apinew/new_test_api.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/apinew/test_api_case_new_run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/apinew/test_api_new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/base0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/minder/edit_test_minder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/minder/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/minder/new_test_minder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/minder/test_minders.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/minder/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/reports/unittest_2018-07-30_16_25_54.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/uitest/attach_test_batch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/uitest/edit_test_cases.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/uitest/edit_test_cases2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/uitest/edit_test_keyword.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/uitest/edit_test_suite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/uitest/general_test_batch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/uitest/new_test_cases.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/uitest/new_test_keyword.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/uitest/new_test_suite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/uitest/test_batch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/uitest/test_batch2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/uitest/test_batch_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/uitest/test_batch_detail_report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/uitest/test_batch_result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/uitest/test_cases.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/uitest/test_keywords.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/uitest/test_suite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/uitest/view_test_suite_screenshot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/util/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/util/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/util/edit_test_file.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/util/edit_user_password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/util/hubs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/util/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/util/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/util/new_hub.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/util/new_test_file.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/util/new_user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/util/test_file.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/util/unittest_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/util/unittest_records.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/util/users.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/templates/util/view_hub.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/test/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/test/log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/test/run_unittest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/test/test_core_hubs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/test/test_core_keywords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/test/test_userDB.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/useDB.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/util/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/util/sendEmail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/view/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/view/apinew.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/view/minder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/view/minderfiles.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/view/uitest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/view/user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/view/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/view/viewutil.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/app/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/atxcore.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/change_log.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/doc/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/doc/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/doc/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/doc/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/doc/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/doc/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/doc/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/doc/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/doc/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/doc/参数配置.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/doc/测试接口详情.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/doc/读取接口信息.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autotest_platform-master/run_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case100/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../case100/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +953,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="890">
-              <caret line="102" column="13" lean-forward="true" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+            <state relative-caret-position="559">
+              <caret line="70" column="25" lean-forward="true" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cases/test_login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -31,6 +983,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -41,43 +996,51 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="42" />
-    <option name="y" value="23" />
-    <option name="width" value="1235" />
-    <option name="height" value="777" />
+    <option name="x" value="-171" />
+    <option name="y" value="-1012" />
+    <option name="width" value="1324" />
+    <option name="height" value="991" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="APITestProject最终版" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APITestProject最终版" type="462c0819:PsiDirectoryNode" />
+              <item name="APITestProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APITestProject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="APITestProject最终版" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APITestProject最终版" type="462c0819:PsiDirectoryNode" />
+              <item name="APITestProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APITestProject" type="462c0819:PsiDirectoryNode" />
+              <item name="cases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APITestProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APITestProject" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="APITestProject最终版" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APITestProject最终版" type="462c0819:PsiDirectoryNode" />
+              <item name="APITestProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APITestProject" type="462c0819:PsiDirectoryNode" />
               <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -97,7 +1060,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_login">
+  <component name="RunManager" selected="Python.run_all">
     <configuration name="login_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="APITestProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,10 +1147,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run_all" />
         <item itemvalue="Python.test_login" />
         <item itemvalue="Python.login_api" />
         <item itemvalue="Python.run_cases_html" />
-        <item itemvalue="Python.run_all" />
       </list>
     </recent_temporary>
   </component>
@@ -205,15 +1168,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="23" width="1235" height="777" extended-state="0" />
-    <editor active="true" />
+    <frame x="-171" y="-1012" width="1324" height="991" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1771005" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19723715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29955947" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1104" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -228,17 +1190,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/report/result.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/read_excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/excuet_sql.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/cases/test_ddt_x.py" />
     <entry file="file://$PROJECT_DIR$/cases/test_login_cls.py" />
     <entry file="file://$PROJECT_DIR$/cases/test_login_ddt.py" />
@@ -246,37 +1197,8 @@
     <entry file="file://$PROJECT_DIR$/cases/test_teacher_add.py" />
     <entry file="file://$PROJECT_DIR$/cases/test_wea.py" />
     <entry file="file://$PROJECT_DIR$/cases/model2/test_y.py" />
-    <entry file="file://$PROJECT_DIR$/xadmin_api/teacher_add_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run_cases_html.py" />
     <entry file="file://$PROJECT_DIR$/run_all_cases.py" />
-    <entry file="file://$PROJECT_DIR$/xadmin_api/login_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cases/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cases/model1/test_login_ddt_cls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -284,13 +1206,6 @@
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6052">
-          <caret line="881" selection-start-line="881" selection-end-line="881" />
         </state>
       </provider>
     </entry>
@@ -303,10 +1218,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/excuet_sql.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xadmin_api/login_cls_api.py" />
+    <entry file="file://$PROJECT_DIR$/xadmin_api/login_xadmin_api.py" />
+    <entry file="file://$PROJECT_DIR$/xadmin_api/teacher_add_api.py" />
+    <entry file="file://$PROJECT_DIR$/xadmin_api/login_api.py" />
+    <entry file="file://$PROJECT_DIR$/common/read_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/result.html" />
+    <entry file="file://$PROJECT_DIR$/common/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="881" selection-start-line="881" selection-end-line="881" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/run_all.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
-          <caret line="102" column="13" lean-forward="true" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+        <state relative-caret-position="559">
+          <caret line="70" column="25" lean-forward="true" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cases/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -5,3 +5,4 @@
 [ERROR 2018-08-25 21:49:38]Response time > expected_time, expected_time is 100, time is 671.038
 [ERROR 2018-08-25 21:49:41]statusCode error, expected_code is 208, statusCode is 200 
 [ERROR 2019-05-05 11:58:36]邮件发送失败，请检查邮件配置
+[ERROR 2019-06-24 16:45:38]邮件发送失败，请检查邮件配置
