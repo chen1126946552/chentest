@@ -42,6 +42,7 @@ def run_case(all_case, reportName="report"):
     report_path = os.path.join(cur_path, reportName)  # 用例文件夹
     # 如果不存在这个report文件夹，就自动创建一个
     if not os.path.exists(report_path):os.mkdir(report_path)
+    filename = "auto_cases_login" + now + ".html"
     report_abspath = os.path.join(report_path, "result.html")
     print("report path:%s"%report_abspath)
     fp = open(report_abspath, "wb")

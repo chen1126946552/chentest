@@ -4,14 +4,9 @@ import requests
 import json
 
 def sendSlack(slackQaUrl,message):
+
     towho = '<!here|here>'
-
-    # Slack频道=【chen_test】，个人调试频道
-    # slackQaUrl = "https://hooks.slack.com/services/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"
-
-    #-----Slack发布范围、内容详情----------
     slacktext =  '{0}\n{1}\n'.format(towho,message)
-
     requests.post(slackQaUrl, json = {'text': slacktext})
     print ("send message success")
 

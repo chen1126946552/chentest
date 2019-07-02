@@ -1,4 +1,5 @@
-# coding:utf-8
+# -*- coding: utf-8 -*-
+
 import xlrd
 class ExcelUtil():
     def __init__(self, excelPath, sheetName="Sheet1"):
@@ -28,7 +29,7 @@ class ExcelUtil():
             return r
 
 if __name__ == "__main__":
-    filepath = "test.xlsx"
+    filepath = "event.xlsx"
     sheetName = "Sheet1"
     data = ExcelUtil(filepath, sheetName)
     print(data.dict_data())
