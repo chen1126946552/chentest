@@ -25,4 +25,4 @@ EVENT_RUL = "https://ptesthquery.ptmind.com/wa/dmevent/v1_0/data?"
 
 # 检查的sid
 SID = "2b1ab5d0"
-# SID = "349127e9"
+#SID = "678c8654"

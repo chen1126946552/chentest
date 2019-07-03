@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 import time
+import os
 
 # 输出helloworld
 
@@ -18,3 +19,6 @@ s2 = '''Hello 'World '''
 
 print(s2)
 print(s2.replace("'", ""))
+
+if(os.path.exists("a.txt")):
+    os.remove("a.txt")
