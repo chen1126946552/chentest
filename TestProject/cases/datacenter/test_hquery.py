@@ -37,7 +37,7 @@ class TestDC(unittest.TestCase):
     def tearDownClass(cls):
         cls.fo.close()
         engage_data_sql(filename)
-        if (os.path.exists(filename)):
+        if (os.path.exists(filename, 'inter_elapsed_time')):
             os.remove(filename)
 
 

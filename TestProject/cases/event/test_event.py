@@ -4,6 +4,7 @@
 import unittest
 import ddt
 from common.read_excel import ExcelUtil
+from common.excuet_sql import engage_data_sql
 import os
 import datetime
 from common.inter import getEvent
@@ -19,6 +20,8 @@ data = ExcelUtil(excelPath=excelPath, sheetName="Sheet1")
 dates = data.dict_data()
 print(dates)
 
+filename = "event.csv"
+
 
 @ddt.ddt
 class TestEvent(unittest.TestCase):
@@ -29,6 +32,14 @@ class TestEvent(unittest.TestCase):
         cls.yesterday = datetime.date.today() + datetime.timedelta(-1)
         cls.today_7 = datetime.date.today() + datetime.timedelta(-7)
         cls.yesterday_7 = datetime.date.today() + datetime.timedelta(-1)
+        cls.fo = open(filename, "a+")
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.fo.close()
+        engage_data_sql(filename, 'inter_elapsed_time')
+        if (os.path.exists(filename)):
+            os.remove(filename)
 
     @ddt.data(*dates)
     def test_event(self, data):
@@ -40,6 +51,7 @@ class TestEvent(unittest.TestCase):
         print(s[0]) # 返回status code
         print(s[1]) # 返回内容
         print(s[2]) # 响应时间s
+        self.fo.write("'{0}','{1}','{2}'#" .format(data['name'], str(s[0]), str(s[2])))
 
         exp1 = 'totalResults'
 

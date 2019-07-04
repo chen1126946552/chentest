@@ -9,7 +9,7 @@ SLACK_CHANNEL = "https://hooks.slack.com/services/T02QSNC9T/BBQARJ9C0/1k7Bi4HaVY
 WEIXI_TOUSER = "ChenChen"
 
 # 发送报告地址
-REPORT_URL = "http://127.0.0.1:8080"
+# REPORT_URL = "http://172.20.100.102:8088/"
 
 # DC接口的请求地址
 DC_URL = "https://tzquery1.ptmind.cn/d"
@@ -26,3 +26,15 @@ EVENT_RUL = "https://ptesthquery.ptmind.com/wa/dmevent/v1_0/data?"
 # 检查的sid
 SID = "2b1ab5d0"
 #SID = "678c8654"
+
+# 查询engage sid 业务库地址
+# 测试区
+HOST = "ptconftestdb.ptfuture.cn"
+PORT = 23306
+USER = "ptmind"
+PASSWD = "ptmind2012"
+# 日本正式
+# HOST = "172.19.3.14"
+# PORT = 3308
+# USER = "Ptreadonly"
+# PASSWD = "PtMind123qwe"
