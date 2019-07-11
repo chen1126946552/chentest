@@ -3,7 +3,7 @@
 from selenium import webdriver
 import time
 
-browser = webdriver.Chrome('/Users/chenchen/Desktop/chentest/chentest/case100/chromedriver')
+browser = webdriver.Chrome('./chromedriver')
 browser.get('http://dashv2.datadeck.com/')
 
 email = browser.find_element_by_name('email')

@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 import time
+import datetime
 import os
 
 # 输出helloworld
@@ -22,3 +23,5 @@ print(s2.replace("'", ""))
 
 if(os.path.exists("a.txt")):
     os.remove("a.txt")
+
+print(datetime.datetime.now().hour)
