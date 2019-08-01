@@ -14,18 +14,6 @@ jpfile_error_name = 'a.csv'
 DIR = './'
 file_object_error = open(jpfile_error_name, 'r')
 
-
-# 获取路径下最新文件
-# def compare(x, y):
-#     stat_x = os.stat(DIR + "/" + x)
-#     stat_y = os.stat(DIR + "/" + y)
-#     if stat_x.st_ctime < stat_y.st_ctime:
-#         return -1
-#     elif stat_x.st_ctime > stat_y.st_ctime:
-#         return 1
-#     else:
-#         return 0
-#
 items = os.listdir(DIR)
 items.sort(key=lambda fn: os.path.getmtime(os.path.join(DIR, fn)))
 print(items[-1])

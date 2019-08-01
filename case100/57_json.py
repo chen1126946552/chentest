@@ -19,5 +19,9 @@ def writefile(json_r):
         print(i['value'],end=',')
 
 if __name__ == '__main__':
-    text = getwidget(filename)
-    writefile(text)
+    # text = getwidget(filename)
+    # writefile(text)
+    d = {}
+    d['a'] = 'b'
+    d['c'] = 200
+    print(d)
