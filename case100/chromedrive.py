@@ -1,8 +1,11 @@
 
 from selenium import webdriver
 import time
+from selenium import webdriver
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+import selenium.webdriver.common.service
 
-browser = webdriver.Chrome('./chromedriver')
+# browser = webdriver.Chrome('./chromedriver')
 # browser.get('http://dashv2.datadeck.com/')
 
 # email = browser.find_element_by_name('email')
@@ -14,15 +17,17 @@ browser = webdriver.Chrome('./chromedriver')
 # commit.click()
 # time.sleep(3)
 
-browser.get('http://datatest11.ptmind.com/cnonline_auto/checklist.html')
-time.sleep(5)
-try:
-    browser.find_element_by_id('ptEngage')
-    a = 'True'
-except:
-    a = 'False'
-print(a)
 
 
+capabilities = DesiredCapabilities.CHROME
+capabilities['loggingPrefs'] = {'browser': 'ALL'}
 
-browser.quit()
+driver = webdriver.Chrome('./chromedriver',desired_capabilities=capabilities)
+
+driver.get('www.ptengine.com')
+
+# print console log messages
+for entry in driver.get_log('browser'):
+    print(entry)
+
+driver.quit()

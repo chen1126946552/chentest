@@ -46,3 +46,8 @@ print(month)
 month = datetime.datetime.now().strftime('%m')
 url = 'http://172.20.11.30:9200' + '/pte-checklist-vip-2019' + month + '/doc/'
 print(url)
+
+print(int(time.time()*1000))
+
+report_path = os.path.join('a', 'b','c')
+print(report_path)

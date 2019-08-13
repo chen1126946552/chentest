@@ -20,6 +20,6 @@ print(driver.get_log('driver'))
 # print('-------')
 # print(driver.get_log('client'))
 print('-------')
-print(driver.get_log('server'))
+# print(driver.get_log('server'))
 
 print(driver.get_log('performance'))
