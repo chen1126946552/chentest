@@ -1,2 +1,0 @@
--r ../requirements_shared.txt
-pandas==0.23.4

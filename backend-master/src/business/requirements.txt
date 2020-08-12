@@ -1,3 +1,0 @@
--r ../requirements_shared.txt
-flask-redis==0.3.0
-mockredispy==2.9.3

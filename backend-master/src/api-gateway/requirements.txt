@@ -1,3 +1,0 @@
--r ../requirements_shared.txt
-pandas==0.23.4
-jsonpath==0.81

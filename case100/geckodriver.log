@@ -1,9 +1,0 @@
-1565157581978	geckodriver	INFO	Listening on 127.0.0.1:50895
-1565157582461	mozprofile::profile	INFO	Using profile path /var/folders/_c/j_0knq816d3128pgjzjy_ms80000gn/T/rust_mozprofile.PiYmddeQ09X1
-1565157582465	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
-1565157582482	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50900
-[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0
-1565157583132	Marionette	INFO	Listening on port 50900
-JavaScript error: https://www.ptengine.cn/wp-content/themes/ptengine/vendor/slick/slick.js?ver=5c0a43dee07f2, line 1279: TypeError: _.$slides is null
-JavaScript warning: https://pteengagejs.ptengine.cn/engage.js?v=v1.64.9, line 1: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
-JavaScript warning: https://js.intercomcdn.com/vendor.881500db.js, line 1: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
