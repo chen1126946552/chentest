@@ -48,7 +48,7 @@ def send_teams(message,report_url):
                 "value": message + report_url},
                 {
                     "name": "Link:",
-                    "value": [report_url](report_url)
+                    "value": report_url [report_url](report_url)
                 }]}]}
-    r = requests.post(url, data=json.dumps(body), headers=headers);
+    r = requests.post(url, data=json.dumps(body), headers=headers)
     print(r.text)

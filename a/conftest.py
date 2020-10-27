@@ -1,10 +1,8 @@
 import time
 from selenium import webdriver
 import pytest
-import sys
-from common.unit import *
 
-result=''
+result = ''
 driver = None
 
 def pytest_terminal_summary(terminalreporter):
